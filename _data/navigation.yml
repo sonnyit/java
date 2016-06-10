@@ -1,13 +1,13 @@
 # main links links
 main:
   - title: "Home"
-    url: https://sonnyit.github.io/java/
+    url: https://sonnyit.github.io/java-blog/
 
   - title: "Category"
-    url: https://sonnyit.github.io/category-archive/
+    url: https://sonnyit.github.io/java-blog/category-archive/
 
   - title: "Sitemap"
-    url: https://sonnyit.github.io/sitemap/
+    url: https://sonnyit.github.io/java-blog/sitemap/
 
   - title: "Sample Posts"
     url: https://mmistakes.github.io/minimal-mistakes/year-archive/
@@ -16,7 +16,7 @@ main:
     url: https://mmistakes.github.io/minimal-mistakes/page-archive/
 
   - title: "Sample Collections"
-    url: https://sonnyit.github.io/collection-archive/
+    url: https://sonnyit.github.io/java-blog/collection-archive/
 
 # documentation links
 docs:
