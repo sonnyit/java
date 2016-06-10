@@ -1,6 +1,8 @@
 ---
 title: Java Abstract
 updated: 2015-12-02
+categories:
+  - java
 ---
 
 Abstraction is the concept of exposing only the required essential characteristics and behavior with respect to a context.
