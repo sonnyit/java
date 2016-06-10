@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "<sonny>"
+title                    : "sonny"
 title_separator          : "-"
 name                     : &name "<sonny>"
 description              : &description "Where I note some things I have read"
