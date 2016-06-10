@@ -9,9 +9,9 @@
 locale                   : "en-US"
 title                    : "<sonny>"
 title_separator          : "-"
-name                     : "<sonny>"
-description              : "Where I note some things I have read"
-url                      : "https://sonnyit.github.io"
+name                     : &name "<sonny>"
+description              : &description "Where I note some things I have read"
+url                      : https://sonnyit.github.io
 baseurl                  : "/java-blog"# the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
