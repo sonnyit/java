@@ -1,19 +1,10 @@
 # main links links
 main:
-  - title: "Home"
-    url: https://sonnyit.github.io/java-blog/
-
   - title: "Category"
     url: https://sonnyit.github.io/java-blog/category-archive/
 
-  - title: "Sitemap"
-    url: https://sonnyit.github.io/java-blog/sitemap/
-
-  - title: "Sample Posts"
-    url: https://mmistakes.github.io/minimal-mistakes/year-archive/
-
-  - title: "Sample Pages"
-    url: https://mmistakes.github.io/minimal-mistakes/page-archive/
+  - title: "Year Archive"
+    url: https://sonnyit.github.io/java-blog/year-archive/
 
   - title: "Sample Collections"
     url: https://sonnyit.github.io/java-blog/collection-archive/
