@@ -6,9 +6,6 @@ main:
   - title: "Year Archive"
     url: https://sonnyit.github.io/java-blog/year-archive/
 
-  - title: "Sample Collections"
-    url: https://sonnyit.github.io/java-blog/collection-archive/
-
 # documentation links
 docs:
   - title: Getting Started
@@ -17,3 +14,17 @@ docs:
         url: /java/jb-basic-data-types/
       - title: "Basic Operators"
         url: /java/jb-basic-operators/
+      - title: "Basic Syntax"
+        url: /java/jb-basic-syntax/
+      - title: "Modifier Types"
+        url: /java/jb-modifier-types/
+      - title: "Static and Final Keyword"
+        url: /java/jb-static-and-final-keyword/
+  - title: Java Object Oriented
+    children:
+      - title: "Java Abstract"
+        url: /java/joo-java-abstract/
+      - title: "Java Encapsulation"
+        url: /java/joo-java-encapsulation/
+      - title: "Java Inheritance"
+        url: /java/joo-java-inheritance/
