@@ -1,0 +1,28 @@
+# main links links
+main:
+  - title: "Home"
+    url: https://sonnyit.github.io/java/
+
+  - title: "Category"
+    url: https://sonnyit.github.io/category-archive/
+
+  - title: "Sitemap"
+    url: https://sonnyit.github.io/sitemap/
+
+  - title: "Sample Posts"
+    url: https://mmistakes.github.io/minimal-mistakes/year-archive/
+
+  - title: "Sample Pages"
+    url: https://mmistakes.github.io/minimal-mistakes/page-archive/
+
+  - title: "Sample Collections"
+    url: https://sonnyit.github.io/collection-archive/
+
+# documentation links
+docs:
+  - title: Getting Started
+    children:
+      - title: "Basic Data Types"
+        url: /java/jb-basic-data-types/
+      - title: "Basic Operators"
+        url: /java/jb-basic-operators/
