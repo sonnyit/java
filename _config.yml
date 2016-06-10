@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "sonny"
+title                    : "S o n n y"
 title_separator          : "-"
-name                     : &name "sonny"
+name                     : &name "S o n n y"
 description              : &description "Where I note some things I have read"
 url                      : https://sonnyit.github.io
 baseurl                  : "/java-blog"# the subpath of your site, e.g. "/blog"
