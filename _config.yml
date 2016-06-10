@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "sonny"
+title                    : "<<sonny>>"
 title_separator          : "-"
 name                     : &name "<sonny>"
 description              : &description "Where I note some things I have read"
@@ -63,7 +63,7 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "<sonny>"
+  name             : "sonny"
   avatar           : "totoro.jpg"
   bio              : "castle in the sky."
   location         : "somewhere"
