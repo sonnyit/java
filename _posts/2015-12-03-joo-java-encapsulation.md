@@ -15,4 +15,3 @@ We **should not misunderstood** that encapsulation is all about data hiding only
 
 When we design a class in OOP, the first principle we should have in mind is encapsulation. Group the related data and its behavior in a bucket. **Primary benefit** of encapsulation is, **better maintainability**.
 
-##### [Java Site Map](../java-sitemap)
