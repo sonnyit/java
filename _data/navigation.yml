@@ -31,6 +31,8 @@ docs:
         url: /java-basic/jb-array/
       - title: "Files and I/O"
         url: /java-basic/jb-files-and-io/
+      - title: "Exceptions"
+        url: /java-basic/jb-exceptions/
   - title: Java Object Oriented
     children:
       - title: "Java Abstract"
