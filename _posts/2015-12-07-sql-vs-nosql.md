@@ -18,12 +18,12 @@ tags:
   * [Key-Value Stores](#key-value-stores-10548tables)
   * [Graph Databases](#graph-databases-10548tables)
   * [Columnar (or Wide-Column) Databases](#columnar-or-wide-column-databases-10548tables)
-* [SQL vs. NoSQL - Which to use?](#sql-vs-nosql-which-to-use-10548tables)
+* [SQL vs. NoSQL - Which to use?](#sql-vs-nosql---which-to-use-10548tables)
 * [Reference](#reference-10548tables)
 
 ## Glossary [&#10548;](#tables)
 
-#### Database Models [&#10548;](#tables)
+### Database Models [&#10548;](#tables)
 
 1. The Relational Model
 2. The Model-less (NoSQL) Approach
@@ -62,7 +62,7 @@ Popular Database Management Systems:
 
 ## The "Many Faces" of NoSQL [&#10548;](#tables)
 
-#### Document Databases [&#10548;](#tables)
+### Document Databases [&#10548;](#tables)
 This image from Document Database solution CouchDB sums up the distinction between RDBMS and Document Databases pretty well:
 
 ![sums up](http://dataconomy.com/wp-content/uploads/2014/07/SQL-vs.-NoSQL.png)
@@ -73,17 +73,17 @@ Each document can have a completely different structure.
 
 Some names: CouchDB, MongoDB.
 
-#### Key-Value Stores [&#10548;](#tables)
+### Key-Value Stores [&#10548;](#tables)
 Data is stored in an associative array of key-value pairs. The key is an attribute name, which is linked to a value.
 
 Some names: Redis, Voldemort (developed by LinkedIn) and Dynamo (developed by Amazon).
 
-#### Graph Databases [&#10548;](#tables)
+### Graph Databases [&#10548;](#tables)
 Used for data whose relations are represented well in a graph. Data is stored in graph structures with notes (entities), properties (information about the entities) and lines (connections between the entities).
 
 Some names: Neo4j, InfiniteGraph.
 
-#### Columnar (or Wide-Column) Databases [&#10548;](#tables)
+### Columnar (or Wide-Column) Databases [&#10548;](#tables)
 Instead of 'tables', in columnar databases you have column families, which are containers for rows.
 
 Unlike RDBMS, you don't need to know all the columns up front, each row doesn't have to have the same number of columns. Columnar databases are best suited to analysing huge datasets.
