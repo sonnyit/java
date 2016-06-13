@@ -31,8 +31,8 @@ public class MyFirstJavaProgram {
 Put this code in a file's name "MyFirstJavaProgram.java" (must exactly typo). Compile and run with:
 
 ```bash
-$ javac MyFirstJavaProgram.java
-$ java MyFirstJavaProgram
+$javac MyFirstJavaProgram.java
+$java MyFirstJavaProgram
 Hello World
 ```
 

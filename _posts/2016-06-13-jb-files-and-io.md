@@ -14,14 +14,25 @@ All these streams represent an input source and an output destination.
 
 The stream in the java.io package supports many data such as primitives, Object, localized characters, etc.
 
+### Tables
+
+[Stream](#stream)
+  * [Byte Streams](#byte-streams)
+  * [Character Streams](#character-streams)
+[Standard Stream](#standard-streams)
+[Reading and Writing Files](#reading-and-writing-files)
+  * [FileInputStream](#fileinputstream)
+  * [FileOutputStream](#fileoutputstream) 
+[Directories in Java](#directories-in-java)
+  * [Creating Directories](#creating-directories)
+  * [Listing Directories](#listing-directories)
+
 ## Stream
 
 A stream can be defined as a sequence of data. there are two kinds of Streams
 
 * InPutStream: The InputStream is used to read data from a source.
 * OutPutStream: the OutputStream is used for writing data to a destination.
-
-
 
 ## Byte Streams
 
@@ -182,13 +193,13 @@ This stream is used for reading data from the files. Objects can be created usin
 
 FileOutputStream is used to create a file and write data into it. The stream would create a file, if it doesn't already exist, before opening it for output.
 
-1. Constructor takes a file name as a string to create an input stream object to write the file:
+* Constructor takes a file name as a string to create an input stream object to write the file:
 
   ```java
   OutputStream f = new FileOutputStream("C:/java/hello");
   ```
 
-2. Constructor takes a file object to create an output stream object to write the file. First, we create a file object using File() method:
+* Constructor takes a file object to create an output stream object to write the file. First, we create a file object using File() method:
 
   ```java
   File f = new File("C:/java/hello");
