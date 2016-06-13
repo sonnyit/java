@@ -2,7 +2,7 @@
 title: Java Basic - Modifier Types
 updated: 2015-12-01
 categories:
-  - java
+  - java-basic
 ---
 
 **Modifiers** are **keywords** that you **add to those definitions** to **change their meanings**. In Java language, we have:

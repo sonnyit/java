@@ -1,6 +1,8 @@
 ---
 title: Java Basic - Variable Types
 updated: 2015-11-30
+categories:
+  - java-basic
 ---
 
 There are three kinds of variables in Java:

@@ -2,7 +2,7 @@
 title: Java Basic - Basic Operators
 updated: 2015-12-01
 categories:
-  - java
+  - java-basic
 ---
 
 Java provides a rich set of operators to manipulate variables. We can divide all the Java operators into the following groups:

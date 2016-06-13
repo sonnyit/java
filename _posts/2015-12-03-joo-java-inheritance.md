@@ -2,7 +2,7 @@
 title: Java Inheritance
 updated: 2015-12-03
 categories:
-  - java
+  - java-object-oriented
 ---
 
  Inheritance can be defined as the process where one class **requires** the properties (**methods** and **fields**) of **another**. With the use of inheritance the information is made manageable in  a hierarchical order.

@@ -1,6 +1,8 @@
 ---
 title: Java Basic - Objects & Classes
 updated: 2015-11-30
+categories:
+  - java-basic
 ---
 
 Java is an Object-Oriented Language. As a language that has Object Oriented feature, java supports the following fundamental concepts:
