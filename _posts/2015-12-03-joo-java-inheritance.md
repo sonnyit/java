@@ -7,6 +7,10 @@ tags:
   - java-object-oriented
 ---
 
+Inheritance can be defined as the process where one class **requires** the properties (**methods** and **fields**) of **another**. With the use of inheritance the information is made manageable in  a hierarchical order.
+
+The class which inherits the properties of other is known as **subclass** (derived class, child class) as the class whose properties are inherited is known as **superclass** (base class, parent class).
+
 ### Tables
 
 * [extends Keyword](#extends-keyword-10548tables)
@@ -14,10 +18,6 @@ tags:
 * [implements Keyword](#implements-keyword-10548tables)
 * [The instanceof Keyword](#the-instanceof-keyword-10548tables)
 * [Types of inheritance](#types-of-inheritance-10548tables)
-
-Inheritance can be defined as the process where one class **requires** the properties (**methods** and **fields**) of **another**. With the use of inheritance the information is made manageable in  a hierarchical order.
-
-The class which inherits the properties of other is known as **subclass** (derived class, child class) as the class whose properties are inherited is known as **superclass** (base class, parent class).
 
 ## extends Keyword [&#10548;](#tables)
 **extends** is the keyword used to inherit the properties (methods and fields) of a class.
