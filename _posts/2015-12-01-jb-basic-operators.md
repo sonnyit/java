@@ -15,7 +15,7 @@ tags:
 * [The Logical Operators](#the-logical-operators-10548tables)
 * [The Assignment Operators](#the-assignment-operators-10548tables)
 * [The Misc Operators](#the-misc-operators-10548tables)
-  * [Conditional Operator (?:)](#conditional-operator-10548tables)
+  * [Conditional Operator (?:)](#conditional-operator--10548tables)
   * [instance of Operator](#instance-of-operator-10548tables)
 * [Precedence of Java Operators](#precedence-of-java-operators-10548tables)
 
@@ -56,7 +56,7 @@ Java provides a rich set of operators to manipulate variables. We can divide all
 
 ## The Logical Operators [&#10548;](#tables)
 * **&&** (logical and)
-* '||' (logical or)
+* **||** (logical or)
 * **!** (logical not)
 
 ## The Assignment Operators [&#10548;](#tables)
