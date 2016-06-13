@@ -1,6 +1,10 @@
 ---
 title: SQL vs. NoSQL
 updated: 2015-12-07
+categories:
+  - others
+tags:
+  - others
 ---
 
 ## Glossary

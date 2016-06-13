@@ -3,6 +3,8 @@ title: Java Basic - Basic Syntax
 updated: 2015-12-01
 categories:
   - java-basic
+tags:
+  - java-basic
 ---
 
 
@@ -29,9 +31,9 @@ public class MyFirstJavaProgram {
 Put this code in a file's name "MyFirstJavaProgram.java" (must exactly typo). Compile and run with:
 
 ```bash
-javac MyFirstJavaProgram.java
-java MyFirstJavaProgram
-Hello World
+$ javac MyFirstJavaProgram.java
+$ java MyFirstJavaProgram
+$ Hello World
 ```
 
 ## Basic Syntax

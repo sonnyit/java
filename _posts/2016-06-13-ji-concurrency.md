@@ -4,6 +4,8 @@ updated: 2016-06-13
 layout: single
 categories:
   - java-interview
+tags:
+  - java-interview
 ---
 
 Java Concurrency

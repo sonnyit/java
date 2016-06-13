@@ -37,3 +37,15 @@ docs:
         url: /java-object-oriented/joo-java-encapsulation/
       - title: "Java Inheritance"
         url: /java-object-oriented/joo-java-inheritance/
+  - title: Interview Questions and Answers
+    children:
+      - title: "Concurrency"
+        url: /java-interview/ji-concurrency/
+  - title: Others
+    children:
+      - title: "Agile"
+        url: /others/agile/
+      - title: "JSP"
+        url: /others/jsp/
+      - title: "SQL VS NOSQL"
+        url: /others/sql-vs-nosql/

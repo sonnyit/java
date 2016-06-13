@@ -3,6 +3,8 @@ title: Java Encapsulation
 updated: 2015-12-03
 categories:
   - java-object-oriented
+tags:
+  - java-object-oriented
 ---
 
 Encapsulation is one of four fundamental OOP concepts. The other three are inheritance, polymorphism, and abstraction.

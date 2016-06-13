@@ -3,6 +3,8 @@ title: Java Basic - Static and Final Keyword
 updated: 2015-12-01
 categories:
   - java-basic
+tags:
+  - java-basic
 ---
 
 ## Java Static
