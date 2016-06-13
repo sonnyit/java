@@ -7,6 +7,23 @@ tags:
   - java-basic
 ---
 
+### Tables
+
+[Example First Java Program](#example-first-java-program)
+
+[Basic Syntax](#basic-syntax)
+
+[Java Identifiers](#java-identifiers)
+
+[Java Modifiers](#java-modifiers)
+
+[Java Variables](#java-variables)
+
+[Java Arrays](#java-arrays)
+
+[Java Enums](#java-enums)
+
+[Inheritance](#inheritance)
 
 A Java program it can be defined as **a collection of objects** that **communicate** via **invoking** each **other's methods**.
 
@@ -91,4 +108,3 @@ In Java language, an interface can by defined as a contract between objects on h
 
 An interface defines the methods, a deriving class (subclass) should use. But the implementation of the methods is totally up to the subclass.
 
-##### [Java Site Map](../java-sitemap)
