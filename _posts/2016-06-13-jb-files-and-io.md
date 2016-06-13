@@ -18,20 +18,20 @@ The stream in the java.io package supports many data such as primitives, Object,
 
 [Stream](#stream)
 
-  * [Byte Streams](#byte-streams-10548-tables)
-  * [Character Streams](#character-streams-10548-tables)
+  * [Byte Streams](#byte-streams-10548tables)
+  * [Character Streams](#character-streams-10548tables)
 
-[Standard Stream](#standard-streams-10548-tables)
+[Standard Stream](#standard-streams-10548tables)
 
-[Reading and Writing Files](#reading-and-writing-files-10548-tables)
+[Reading and Writing Files](#reading-and-writing-files-10548tables)
 
-  * [FileInputStream](#fileinputstream-10548-tables)
-  * [FileOutputStream](#fileoutputstream-10548-tables) 
+  * [FileInputStream](#fileinputstream-10548tables)
+  * [FileOutputStream](#fileoutputstream-10548tables) 
 
-[Directories in Java](#directories-in-java-10548-tables)
+[Directories in Java](#directories-in-java-10548tables)
 
-  * [Creating Directories](#creating-directories-10548-tables)
-  * [Listing Directories](#listing-directories-10548-tables)
+  * [Creating Directories](#creating-directories-10548tables)
+  * [Listing Directories](#listing-directories-10548tables)
 
 ## Stream [&#10548;](#tables)
 
