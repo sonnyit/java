@@ -33,14 +33,14 @@ The stream in the java.io package supports many data such as primitives, Object,
   * [Creating Directories](#creating-directories-10548-tables)
   * [Listing Directories](#listing-directories-10548-tables)
 
-## Stream [&#10548;](#java-concurrency)
+## Stream [&#10548;](#tables)
 
 A stream can be defined as a sequence of data. there are two kinds of Streams
 
 * InPutStream: The InputStream is used to read data from a source.
 * OutPutStream: the OutputStream is used for writing data to a destination.
 
-## Byte Streams [&#10548;](#java-concurrency)
+## Byte Streams [&#10548;](#tables)
 
 Java byte streams are used to perform input and output of 8-bit bytes.
 
@@ -77,7 +77,7 @@ public class CopyFile {
 }
 ```
 
-## Character Streams [&#10548;](#java-concurrency)
+## Character Streams [&#10548;](#tables)
 
 Java **Byte** streams are used to perform input and output of 8-bit bytes, where as Java **Character** streams are used to perform input and output for 16-bit unicode.
 
@@ -121,7 +121,7 @@ public class CopyFile {
 }
 ```
 
-## Standard Streams [&#10548;](#java-concurrency)
+## Standard Streams [&#10548;](#tables)
 
 All the programming languages provide support for standard I/O where user's program can take input from a keyboard and then produce output on the computer screen. If you are aware if C or C++ programming languages, then you must be aware of three standard devices STDIN, STDOUT and STDERR. Similar way Java provides following three standard streams
 
@@ -168,7 +168,7 @@ q
 q
 ```
 
-## Reading and Writing Files [&#10548;](#java-concurrency)
+## Reading and Writing Files [&#10548;](#tables)
 
 As described earlier, A stream can be defined as a sequence of data. The **InputStream** is used to read data from a source and the **OutputStream** is used for writing data to a destination.
 
@@ -178,7 +178,7 @@ Here is a hierarchy of classes to deal with Input and Output streams.
 
 The two important streams are **FileInputStream** and **FileOutputStream**.
 
-### FileInputStream [&#10548;](#java-concurrency)
+### FileInputStream [&#10548;](#tables)
 
 This stream is used for reading data from the files. Objects can be created using the keyword new and there are several types of constructors available.
 
@@ -195,7 +195,7 @@ This stream is used for reading data from the files. Objects can be created usin
   InputStream f = new FileInputStream(f);
   ```
   
-### FileOutputStream [&#10548;](#java-concurrency)
+### FileOutputStream [&#10548;](#tables)
 
 FileOutputStream is used to create a file and write data into it. The stream would create a file, if it doesn't already exist, before opening it for output.
 
@@ -212,11 +212,11 @@ FileOutputStream is used to create a file and write data into it. The stream wou
   OutputStream f = new FileOutputStream(f);
   ```
 
-## Directories in Java [&#10548;](#java-concurrency)
+## Directories in Java [&#10548;](#tables)
 
 A directory is a **File** which can contains a list of other files and directories. You use File object to create directories, to list down files available in a directory.
 
-### Creating Directories [&#10548;](#java-concurrency)
+### Creating Directories [&#10548;](#tables)
 
 There are two useful **File** utility methods, which can be used to create directories:
 
@@ -240,7 +240,7 @@ public class CreateDir {
 
 **Note:** Java automatically takes care of path separators on UNIX and Windows as per conventions. If you use a forward slash (/) on a Windows version of Java, the path will still resolve correctly.
 
-### Listing Directories [&#10548;](#java-concurrency)
+### Listing Directories [&#10548;](#tables)
 
 You can use **list()** method provided by File object to list down all the files and directories available in a directory as follows:
 
