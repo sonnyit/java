@@ -166,10 +166,13 @@ The two important streams are **FileInputStream** and **FileOutputStream**.
 This stream is used for reading data from the files. Objects can be created using the keyword new and there are several types of constructors available.
 
 * Following constructor takes a file name as a string to create an input stream object to read the file:
+  
   ```java
   InputStream f = new FileInputStream("C:/java/hello");
   ```
+  
 * Following constructor takes a file object to create an input stream object to read the file. First we create a file object using File() method:
+  
   ```java
   File f = new File("C:/java/hello");
   InputStream f = new FileInputStream(f);
