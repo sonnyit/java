@@ -7,6 +7,15 @@ tags:
   - java-basic
 ---
 
+Java provides a rich set of operators to manipulate variables. We can divide all the Java operators into the following groups:
+
+* Arithmetic Operators
+* Relational Operators
+* Bitwise Operators
+* Logical Operators
+* Assignment Operators
+* Misc Operators
+
 # Tables
 
 * [The Arithmetic Operators](#the-arithmetic-operators-10548tables)
@@ -18,15 +27,6 @@ tags:
   * [Conditional Operator (?:)](#conditional-operator--10548tables)
   * [instance of Operator](#instance-of-operator-10548tables)
 * [Precedence of Java Operators](#precedence-of-java-operators-10548tables)
-
-Java provides a rich set of operators to manipulate variables. We can divide all the Java operators into the following groups:
-
-* Arithmetic Operators
-* Relational Operators
-* Bitwise Operators
-* Logical Operators
-* Assignment Operators
-* Misc Operators
 
 ## The Arithmetic Operators [&#10548;](#tables)
 * **+** (addition)

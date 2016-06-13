@@ -7,6 +7,8 @@ tags:
   - java-object-oriented
 ---
 
+Abstraction is the concept of exposing only the required essential characteristics and behavior with respect to a context.
+
 ### Tables
 
 * [Java Abstract Class](#java-abstract-class-10548tables)
@@ -16,8 +18,6 @@ tags:
 * [When Should I use an Abstract class](#when-should-i-use-an-abstract-class-10548tables)
 * [Can an Abstract Class have Constructor in Java?](#can-an-abstract-class-have-constructor-in-java-10548tables)
 * [Can an Abstract class be final in Java?](#can-an-abstract-class-be-final-in-java-10548tables)
-
-Abstraction is the concept of exposing only the required essential characteristics and behavior with respect to a context.
 
 ## Java Abstract Class [&#10548;](#tables)
 A **Java class** that is declared using the keyword **abstract** is called an **abstract class**.

@@ -7,17 +7,17 @@ tags:
   - java-basic
 ---
 
-### Tables
-
-* [Java Access Control Modifiers](#java-access-control-modifiers-10548tables)
-* [Non Access Modifiers](#non-access-modifiers-10548tables)
-
 **Modifiers** are **keywords** that you **add to those definitions** to **change their meanings**. In Java language, we have:
 
 * Java Access Modifiers
 * Non Access Modifiers
 
 To use a modifier, we include its **keyword** in the definition of a class, method, or variable.
+
+### Tables
+
+* [Java Access Control Modifiers](#java-access-control-modifiers-10548tables)
+* [Non Access Modifiers](#non-access-modifiers-10548tables)
 
 ## Java Access Control Modifiers [&#10548;](#tables)
 Java provides a number of **access modifiers** to **set access levels** for classes, variables, methods, and constructors. The four access levels are:

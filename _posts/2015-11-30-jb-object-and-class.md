@@ -7,16 +7,6 @@ tags:
   - java-basic
 ---
 
-### Tables
-
-* [Objects in Java](#objects-in-java-10548tables)
-* [Classes in Java](#classes-in-java-10548tables)
-* [Constructor](#constructor-10548tables)
-* [Creating an Object](#creating-an-object-10548tables)
-* [Source file declaration rules](#source-file-declaration-rules-10548tables)
-* [Java package](#java-package-10548tables)
-* [Import statements](#import-statements-10548tables)
-
 Java is an Object-Oriented Language. As a language that has Object Oriented feature, java supports the following fundamental concepts:
 
 * Polymorphism
@@ -30,6 +20,16 @@ Java is an Object-Oriented Language. As a language that has Object Oriented feat
 * Message Parsing
 
 In this part, we will look into the concepts of Classes and Objects.
+
+### Tables
+
+* [Objects in Java](#objects-in-java-10548tables)
+* [Classes in Java](#classes-in-java-10548tables)
+* [Constructor](#constructor-10548tables)
+* [Creating an Object](#creating-an-object-10548tables)
+* [Source file declaration rules](#source-file-declaration-rules-10548tables)
+* [Java package](#java-package-10548tables)
+* [Import statements](#import-statements-10548tables)
 
 ## Objects in Java [&#10548;](#tables)
 

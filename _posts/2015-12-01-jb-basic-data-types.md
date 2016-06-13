@@ -8,16 +8,16 @@ tags:
   - java-basic
 ---
 
+There are two data types available in Java:
+
+* Primitive Data Types: numeric types, boolean type, and returnAddress type.
+* Reference/Object Data Types
+
 ### Tables
 
 * [Primitive Data Types](#primitive-data-types-10548tables)
 * [Reference Data Types](#reference-data-types-10548tables)
 * [Java literals](#java-literals-10548tables)
-
-There are two data types available in Java:
-
-* Primitive Data Types: numeric types, boolean type, and returnAddress type.
-* Reference/Object Data Types
 
 ## Primitive Data Types [&#10548;](#tables)
 There are eight primitive data types supported by Java.

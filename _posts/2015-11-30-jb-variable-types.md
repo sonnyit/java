@@ -7,17 +7,17 @@ tags:
   - java-basic
 ---
 
-### Tables
-
-* [Local variables](#local-variables-10548tables)
-* [Instance variables](#instance-variables-10548tables)
-* [Class/static variables](#classstatic-variables-10548tables)
-
 There are three kinds of variables in Java:
 
 * Local variables
 * Instance variables
 * Class/static variables
+
+### Tables
+
+* [Local variables](#local-variables-10548tables)
+* [Instance variables](#instance-variables-10548tables)
+* [Class/static variables](#classstatic-variables-10548tables)
 
 ## Local variables [&#10548;](#tables)
 

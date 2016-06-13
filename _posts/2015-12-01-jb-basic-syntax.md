@@ -7,6 +7,13 @@ tags:
   - java-basic
 ---
 
+A Java program it can be defined as **a collection of objects** that **communicate** via **invoking** each **other's methods**.
+
+* **Object -** Objects have **states** and **behaviors**.
+* **Class -** A class can be defined as a template/blue print that describles the behaviors/states that object of its type support.
+* **Methods -** A methods is basically a behavior. A class can contain many methods.
+* **Instance Variables -** Each object has its unique set of instance variables. An object's state is create by the values assigned to these instance variables.
+
 ### Tables
 
 * [Example First Java Program](#example-first-java-program-10548tables)
@@ -18,13 +25,6 @@ tags:
 * [Java Enums](#java-enums-10548tables)
 * [Inheritance](#inheritance-10548tables)
 * [Interfaces](#interfaces-10548tables)
-
-A Java program it can be defined as **a collection of objects** that **communicate** via **invoking** each **other's methods**.
-
-* **Object -** Objects have **states** and **behaviors**.
-* **Class -** A class can be defined as a template/blue print that describles the behaviors/states that object of its type support.
-* **Methods -** A methods is basically a behavior. A class can contain many methods.
-* **Instance Variables -** Each object has its unique set of instance variables. An object's state is create by the values assigned to these instance variables.
 
 ## Example First Java Program [&#10548;](#tables)
 

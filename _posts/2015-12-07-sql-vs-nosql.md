@@ -7,14 +7,28 @@ tags:
   - others
 ---
 
-## Glossary
+### Tables
 
-#### Database Models
+* [Glossary](#glossary-10548tables)
+* [Database Models](#database-models-10548tables)
+  * [Database Management Systems (DBMS)](#database-management-systems-dbms-10548tables)
+* [SQL vs NoSQL: High Level Differences](#sql-vs-nosql-high-level-differences-10548tables)
+* [The "Many Faces" of NoSQL](#the-many-faces-of-nosql-10548tables)
+  * [Document Databases](#document-databases-10548tables)
+  * [Key-Value Stores](#key-value-stores-10548tables)
+  * [Graph Databases](#graph-databases-10548tables)
+  * [Columnar (or Wide-Column) Databases](#columnar-or-wide-column-databases-10548tables)
+* [SQL vs. NoSQL - Which to use?](#sql-vs-nosql-which-to-use-10548tables)
+* [Reference](#reference-10548tables)
+
+## Glossary [&#10548;](#tables)
+
+#### Database Models [&#10548;](#tables)
 
 1. The Relational Model
 2. The Model-less (NoSQL) Approach
 
-#### Database Management Systems (DBMS)
+### Database Management Systems (DBMS) [&#10548;](#tables)
 DBMS are higher-level software, working with lower-level application programming interfaces (APIs), that take care of these operations like: create, retrieve, update and manage data.
 
 To help with solving different kind of problems, for decades new kinds of DBMSs have been developed (e.g. Relational, NoSQL, etc.) along with applications implementing them (e.g. MySQL, PostgreSQL, MongoDB, Redis, etc).
@@ -30,7 +44,7 @@ Popular Database Management Systems:
 * Relational Database Management Systems.
 * NoSQL (NewSQL, Not only SQL, Model-less) Database Systems.
 
-## SQL vs NoSQL: High Level Differences
+## SQL vs NoSQL: High Level Differences [&#10548;](#tables)
 
 |  | SQL | NoSQL |
 |----|-----|-------|
@@ -46,9 +60,9 @@ Popular Database Management Systems:
 |For properties|Emphasizes on **ACID properties** (Atomicity, Consistency, Isolation and Durability)|Follows the **Brewers CAP theorem** (Consistency, Availability and Partition tolerance)|
 |For DB types|On a high-level, we can classify SQL databases as either open-source or close-source from commercial vendors|Can be classified on the basis of way of storing data as graph databases, key-value store databases, document store databases, column store database and XML databases|
 
-## The "Many Faces" of NoSQL
+## The "Many Faces" of NoSQL [&#10548;](#tables)
 
-#### Document Databases
+#### Document Databases [&#10548;](#tables)
 This image from Document Database solution CouchDB sums up the distinction between RDBMS and Document Databases pretty well:
 
 ![sums up](http://dataconomy.com/wp-content/uploads/2014/07/SQL-vs.-NoSQL.png)
@@ -58,28 +72,32 @@ Instead of storing data in rows and columns in a table, data is locked in docume
 Each document can have a completely different structure.
 
 Some names: CouchDB, MongoDB.
-#### Key-Value Stores
+
+#### Key-Value Stores [&#10548;](#tables)
 Data is stored in an associative array of key-value pairs. The key is an attribute name, which is linked to a value.
 
 Some names: Redis, Voldemort (developed by LinkedIn) and Dynamo (developed by Amazon).
-#### Graph Databases
+
+#### Graph Databases [&#10548;](#tables)
 Used for data whose relations are represented well in a graph. Data is stored in graph structures with notes (entities), properties (information about the entities) and lines (connections between the entities).
 
 Some names: Neo4j, InfiniteGraph.
-#### Columnar (or Wide-Column) Databases
+
+#### Columnar (or Wide-Column) Databases [&#10548;](#tables)
 Instead of 'tables', in columnar databases you have column families, which are containers for rows.
 
 Unlike RDBMS, you don't need to know all the columns up front, each row doesn't have to have the same number of columns. Columnar databases are best suited to analysing huge datasets.
 
 Some names: Cassandra and Hbase.
-## SQL vs. NoSQL - Which to use?
+
+## SQL vs. NoSQL - Which to use? [&#10548;](#tables)
 The idea that SQL and NoSQL are in direct opposition and competition with each other is **flawed one**, because many companies use them concurrently. **There is not a one-system-fits-all** approach, choosing the righ technology hinges on the use case.
 
 If your data needs are changing rapidly, you need high throughput to handle growth, or your data is growing fast and you need to be able to scale out quickly and efficiently, maybe NoSQL is for you.
 
 But if the data isn't changing in structure and you're experiencing moderate, manageable growth, you needs may be best met by SQL technologies.
 
-## Reference
+## Reference [&#10548;](#tables)
 * [nosql-explained-from-mongoDB](https://www.mongodb.com/nosql-explained)
 * [sql-vs-nosql-db-from-thegeekstuff](http://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/)
 * [sql vs. nosql - what you need to know-from-dataconomy](http://dataconomy.com/sql-vs-nosql-need-know/)

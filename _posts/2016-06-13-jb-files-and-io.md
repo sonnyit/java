@@ -8,6 +8,12 @@ tags:
   - java-basic
 ---
 
+The java.io package contains nearly every class you might ever need to perform input and output (I/O) in Java.
+
+All these streams represent an input source and an output destination.
+
+The stream in the java.io package supports many data such as primitives, Object, localized characters, etc.
+
 ### Tables
 
 * [Stream](#stream)
@@ -20,13 +26,7 @@ tags:
 * [Directories in Java](#directories-in-java-10548tables)
   * [Creating Directories](#creating-directories-10548tables)
   * [Listing Directories](#listing-directories-10548tables)
-
-The java.io package contains nearly every class you might ever need to perform input and output (I/O) in Java.
-
-All these streams represent an input source and an output destination.
-
-The stream in the java.io package supports many data such as primitives, Object, localized characters, etc.
-
+  
 ## Stream [&#10548;](#tables)
 
 A stream can be defined as a sequence of data. there are two kinds of Streams
