@@ -1,5 +1,5 @@
 ---
-title: 2. Objects & Classes
+title: Java Basic - Objects & Classes
 updated: 2015-11-30
 categories:
   - java-basic
