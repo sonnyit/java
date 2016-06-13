@@ -56,7 +56,7 @@ With Java programs, it is **very important** to keep in mind the following point
 * **Program File Name -** Name of the program file should **exactly match** the (only) **public class name** in this file. Ex: assume 'MyFirstJavaProgram' is the class name. Then the file should be saved as 'MyFirstJavaProgram.java'.
 * **public static void main(String args[]) -** Java program processing starts from the main() methods which is a mandatory part of every Java program.
 
-## Java Identifiers [&#10548;](#tables)
+## Java Identifiers [&#8632;](#tables)
 In Java, we have several points that will need to remember about identifiers:
 
 * All identifiers should begin with a letter **(A-Z or a-z)**, currency character **$** or underscore **_**.
@@ -66,7 +66,7 @@ In Java, we have several points that will need to remember about identifiers:
 * Example of **legal** identifiers:  age, $salary, _value, __1_value.
 * Example of **illegal** identifiers: 123abc, -salary.
 
-## Java Modifiers [&#10548;](#tables)
+## Java Modifiers [&#8607;](#tables)
 Like other languages, it is possible to modify classes, methods, etc., by using modifiers. There are two categories of modifiers:
 
 * **Access Modifiers:** default, public, protected, private.
