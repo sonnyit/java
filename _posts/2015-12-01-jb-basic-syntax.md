@@ -1,5 +1,5 @@
 ---
-title: Java Basic - Basic Syntax
+title: 1. Basic Syntax
 updated: 2015-12-01
 categories:
   - java-basic
