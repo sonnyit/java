@@ -1,10 +1,10 @@
 # main links links
 main:
   - title: "Category"
-    url: https://sonnyit.github.io/java-blog/category-archive/
+    url: https://sonnyit.github.io/java/category-archive/
 
   - title: "Year Archive"
-    url: https://sonnyit.github.io/java-blog/year-archive/
+    url: https://sonnyit.github.io/java/year-archive/
 
 # documentation links
 docs:
