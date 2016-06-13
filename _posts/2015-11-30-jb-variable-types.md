@@ -7,13 +7,19 @@ tags:
   - java-basic
 ---
 
+### Tables
+
+* [Local variables](#local-variables-10548tables)
+* [Instance variables](#instance-variables-10548tables)
+* [Class/static variables](#classstatic-variables-10548tables)
+
 There are three kinds of variables in Java:
 
 * Local variables
 * Instance variables
 * Class/static variables
 
-## Local variables
+## Local variables [&#10548;](#tables)
 
 - Local variables are declared in methods, constructors, or blocks.
 - Local variables are created when the method, constructor or block is entered and the variable will be destroyed once it exits the method, constructor or block.
@@ -22,7 +28,7 @@ There are three kinds of variables in Java:
 - Local variable are implemented at **stack** level internally.
 - **There are no default value for local variables** so local variables **should be declared** and **initial value** should be assigned **before the first use**.
 
-## Instance variables
+## Instance variables [&#10548;](#tables)
 
 - Instance variables are declared in a class, but outside a method, constructor or any block.
 - When a space is allocated for an object in the heap, a slot for each instance variable value is created.
@@ -34,7 +40,7 @@ There are three kinds of variables in Java:
 
 [read more 1](http://www.tutorialspoint.com/java/java_variable_types.htm) [read more 2](http://math.hws.edu/javanotes/c5/s1.html)
 
-## Class/static variables
+## Class/static variables [&#10548;](#tables)
 
 - Class variables also known as static variables are declared with the **static** keyword in a class, but outside a method, constructor or block.
 - There would only be one copy of each class variable per class, regardless of how many objects are created from it.
@@ -65,5 +71,3 @@ public class Employee{
     }
 }
 ```
-
-##### [Java Site Map](../java-sitemap)

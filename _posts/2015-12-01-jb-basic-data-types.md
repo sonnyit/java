@@ -8,12 +8,18 @@ tags:
   - java-basic
 ---
 
+### Tables
+
+* [Primitive Data Types](#primitive-data-types-10548tables)
+* [Reference Data Types](#reference-data-types-10548tables)
+* [Java literals](#java-literals-10548tables)
+
 There are two data types available in Java:
 
 * Primitive Data Types: numeric types, boolean type, and returnAddress type.
 * Reference/Object Data Types
 
-## Primitive Data Types
+## Primitive Data Types [&#10548;](#tables)
 There are eight primitive data types supported by Java.
 
 **Numeric Types**
@@ -64,7 +70,7 @@ There are eight primitive data types supported by Java.
   * there are only two possible values: true and false.
   * default value is false 
 
-## Reference Data Types
+## Reference Data Types [&#10548;](#tables)
 
 * Reference variables are created using defined constructors of the classes. They are used to access objects. These variables are declared to be of a specific type that cannot be changed.
 * Class objects, and various type of array variables come under reference data type.
@@ -72,7 +78,5 @@ There are eight primitive data types supported by Java.
 * A reference variable can be used to refer to any object of the declared type or any compatible type.
 * Example: Animal animal = new Animal("giraffe");
 
-## Java literals
+## Java literals [&#10548;](#tables)
 A literal is a source code representation of a fixed value. They are represented directly in the code without any computation.
-
-##### [Java Site Map](../java-sitemap)
