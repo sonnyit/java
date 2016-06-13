@@ -7,9 +7,19 @@ tags:
   - java-object-oriented
 ---
 
+### Tables
+
+* [Java Abstract Class](#java-abstract-class-10548tables)
+* [Java Abstract Method](#java-abstract-method-10548tables)
+* [Extending an Abstract Class](#extending-an-abstract-class-10548tables)
+* [Abstract class Implements an Interface](#abstract-class-implements-an-interface-10548tables)
+* [When Should I use an Abstract class](#when-should-i-use-an-abstract-class-10548tables)
+* [Can an Abstract Class have Constructor in Java?](#can-an-abstract-class-have-constructor-in-java--10548tables)
+* [Can an Abstract class be final in Java?](#can-an-abstract-class-be-final-in-java--10548tables)
+
 Abstraction is the concept of exposing only the required essential characteristics and behavior with respect to a context.
 
-## Java Abstract Class
+## Java Abstract Class [&#10548;](#tables)
 A **Java class** that is declared using the keyword **abstract** is called an **abstract class**.
 
 New **instances cannot be created** for an **abstract class** but it can be **extended**.
@@ -25,7 +35,7 @@ public abstract class Animal {
 }
 ```
 
-## Java Abstract Method
+## Java Abstract Method [&#10548;](#tables)
 A method that is declared using the keyword **abstract** is called an **abstract method**.
 
 Abstract methods are declaration only and it will not have implementation. It will not have a method body.
@@ -50,7 +60,7 @@ public abstract class Animal {
 }
 ```
 
-## Extending an Abstract Class
+## Extending an Abstract Class [&#10548;](#tables)
 When an abstract class is implemented in Java, generally all its abstract methods will be defined. If one or more abstract method is not defined in the implementing class, then it also should be declared as an abstract class too.
 
 Following is an example class that implements the Animal abstract class. **@Override** is a **Java annotation** used to state that this method overrides the method in the super class.
@@ -64,7 +74,7 @@ public class Lion extends Animal {
 }
 ```
 
-## Abstract class Implements an Interface
+## Abstract class Implements an Interface [&#10548;](#tables)
 ![Abstract class Implements an Interface](http://javapapers.com/wp-content/uploads/2015/07/Java-Abstract-Class-and-Methods.jpg)
 
 It is **possible** for an *abstract* class to **implement** a Java *interface*. If the implementing class does not implement all of the abstract methods from the interface, then this must be defined an *abstract* class in Java.
@@ -86,12 +96,12 @@ public abstract class Animal implements Species {
 
 So, Animal class does not implement the abstract method (getClassification) from Species interface. Though Animal does not have any abstract method on its own, it must be declared as abstract since it did not implement the abstract method from Species interface. Any class that extends the Animal class should implement the getClassification abstract method.
 
-## When Should I use an Abstract class
+## When Should I use an Abstract class [&#10548;](#tables)
 We should go for abstract class when we are working with **classes** that **contains similar code**. That is, there is a possibility to template behavior and attributes. So, what we gain from this template pattern is avoiding repetition of common code.
 
 Common behavior can be elevated to a super class and provide implementation to it. Then add behavior that cannot be implemented and declare it as abstract. Classes that are similar to this abstract class will extend it and use the already implemented methods and add implementation for abstract methods.
 
-## Can an Abstract Class have Constructor in Java?
+## Can an Abstract Class have Constructor in Java? [&#10548;](#tables)
 **Yes,** an abstract class can have constructor in Java. It can be a useful option to enforce class constraints like setting up a field.
 
 ```java
@@ -125,9 +135,7 @@ public class Lion extends Animal {
 }
 ```
 
-## Can an Abstract class be final in Java?
+## Can an Abstract class be final in Java? [&#10548;](#tables)
 **No,** an abstract class cannot be declared as **final** in Java. Because it will completely negate the purpose of an abstract class.
 
 An abstract class should be extended to create instances. If it is declared final, then it cannot be extended and so an abstract class cannot be declared as final.
-
-##### [Java Site Map](../java-sitemap)
