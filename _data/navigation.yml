@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Sitemap"
-    url: https://sonnyit.github.io/java/jb-basic-syntax/
+    url: https://sonnyit.github.io/java/java-basic/jb-basic-syntax/
 
   - title: "Category"
     url: https://sonnyit.github.io/java/category-archive/
@@ -14,26 +14,26 @@ docs:
   - title: Getting Started
     children:
       - title: "Basic Syntax"
-        url: /java/jb-basic-syntax/
+        url: /java-basic/jb-basic-syntax/
       - title: "Object & Classes"
-        url: /java/jb-object-and-class/
+        url: /java-basic/jb-object-and-class/
       - title: "Basic Datatypes"
-        url: /java/jb-basic-data-types/
+        url: /java-basic/jb-basic-data-types/
       - title: "Variable Types"
-        url: /java/jb-variable-types/
+        url: /java-basic/jb-variable-types/
       - title: "Modifier Types"
-        url: /java/jb-modifier-types/
+        url: /java-basic/jb-modifier-types/
       - title: "Basic Operators"
-        url: /java/jb-basic-operators/
+        url: /java-basic/jb-basic-operators/
       - title: "Static and Final Keyword"
-        url: /java/jb-static-and-final-keyword/
+        url: /java-basic/jb-static-and-final-keyword/
       - title: "Array"
-        url: /java/jb-array/
+        url: /java-basic/jb-array/
   - title: Java Object Oriented
     children:
       - title: "Java Abstract"
-        url: /java/joo-java-abstract/
+        url: /java-object-oriented/joo-java-abstract/
       - title: "Java Encapsulation"
-        url: /java/joo-java-encapsulation/
+        url: /java-object-oriented/joo-java-encapsulation/
       - title: "Java Inheritance"
-        url: /java/joo-java-inheritance/
+        url: /java-object-oriented/joo-java-inheritance/
