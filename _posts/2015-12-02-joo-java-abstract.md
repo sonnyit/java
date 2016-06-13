@@ -14,8 +14,8 @@ tags:
 * [Extending an Abstract Class](#extending-an-abstract-class-10548tables)
 * [Abstract class Implements an Interface](#abstract-class-implements-an-interface-10548tables)
 * [When Should I use an Abstract class](#when-should-i-use-an-abstract-class-10548tables)
-* [Can an Abstract Class have Constructor in Java?](#can-an-abstract-class-have-constructor-in-java--10548tables)
-* [Can an Abstract class be final in Java?](#can-an-abstract-class-be-final-in-java--10548tables)
+* [Can an Abstract Class have Constructor in Java?](#can-an-abstract-class-have-constructor-in-java-10548tables)
+* [Can an Abstract class be final in Java?](#can-an-abstract-class-be-final-in-java-10548tables)
 
 Abstraction is the concept of exposing only the required essential characteristics and behavior with respect to a context.
 
