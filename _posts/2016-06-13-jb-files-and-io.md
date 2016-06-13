@@ -208,7 +208,7 @@ FileOutputStream is used to create a file and write data into it. The stream wou
 
 ## Directories in Java [&#10548;](#tables)
 
-A directory is a **File** which can contains a list of other files and directories. You use File object to create directories, to list down files available in a directory.
+A directory is a File which can contains a list of other files and directories. You use **File** object to create directories, to list down files available in a directory.
 
 ### Creating Directories [&#10548;](#tables)
 
