@@ -17,24 +17,30 @@ The stream in the java.io package supports many data such as primitives, Object,
 ### Tables
 
 [Stream](#stream)
-  * [Byte Streams](#byte-streams)
-  * [Character Streams](#character-streams)
-[Standard Stream](#standard-streams)
-[Reading and Writing Files](#reading-and-writing-files)
-  * [FileInputStream](#fileinputstream)
-  * [FileOutputStream](#fileoutputstream) 
-[Directories in Java](#directories-in-java)
-  * [Creating Directories](#creating-directories)
-  * [Listing Directories](#listing-directories)
 
-## Stream
+  * [Byte Streams](#byte-streams-10548-tables)
+  * [Character Streams](#character-streams-10548-tables)
+
+[Standard Stream](#standard-streams-10548-tables)
+
+[Reading and Writing Files](#reading-and-writing-files-10548-tables)
+
+  * [FileInputStream](#fileinputstream-10548-tables)
+  * [FileOutputStream](#fileoutputstream-10548-tables) 
+
+[Directories in Java](#directories-in-java-10548-tables)
+
+  * [Creating Directories](#creating-directories-10548-tables)
+  * [Listing Directories](#listing-directories-10548-tables)
+
+## Stream [&#10548;](#java-concurrency)
 
 A stream can be defined as a sequence of data. there are two kinds of Streams
 
 * InPutStream: The InputStream is used to read data from a source.
 * OutPutStream: the OutputStream is used for writing data to a destination.
 
-## Byte Streams
+## Byte Streams [&#10548;](#java-concurrency)
 
 Java byte streams are used to perform input and output of 8-bit bytes.
 
@@ -71,7 +77,7 @@ public class CopyFile {
 }
 ```
 
-## Character Streams
+## Character Streams [&#10548;](#java-concurrency)
 
 Java **Byte** streams are used to perform input and output of 8-bit bytes, where as Java **Character** streams are used to perform input and output for 16-bit unicode.
 
@@ -115,7 +121,7 @@ public class CopyFile {
 }
 ```
 
-## Standard Streams
+## Standard Streams [&#10548;](#java-concurrency)
 
 All the programming languages provide support for standard I/O where user's program can take input from a keyboard and then produce output on the computer screen. If you are aware if C or C++ programming languages, then you must be aware of three standard devices STDIN, STDOUT and STDERR. Similar way Java provides following three standard streams
 
@@ -162,7 +168,7 @@ q
 q
 ```
 
-## Reading and Writing Files
+## Reading and Writing Files [&#10548;](#java-concurrency)
 
 As described earlier, A stream can be defined as a sequence of data. The **InputStream** is used to read data from a source and the **OutputStream** is used for writing data to a destination.
 
@@ -172,7 +178,7 @@ Here is a hierarchy of classes to deal with Input and Output streams.
 
 The two important streams are **FileInputStream** and **FileOutputStream**.
 
-### FileInputStream
+### FileInputStream [&#10548;](#java-concurrency)
 
 This stream is used for reading data from the files. Objects can be created using the keyword new and there are several types of constructors available.
 
@@ -189,7 +195,7 @@ This stream is used for reading data from the files. Objects can be created usin
   InputStream f = new FileInputStream(f);
   ```
   
-### FileOutputStream
+### FileOutputStream [&#10548;](#java-concurrency)
 
 FileOutputStream is used to create a file and write data into it. The stream would create a file, if it doesn't already exist, before opening it for output.
 
@@ -206,11 +212,11 @@ FileOutputStream is used to create a file and write data into it. The stream wou
   OutputStream f = new FileOutputStream(f);
   ```
 
-## Directories in Java
+## Directories in Java [&#10548;](#java-concurrency)
 
 A directory is a **File** which can contains a list of other files and directories. You use File object to create directories, to list down files available in a directory.
 
-### Creating Directories
+### Creating Directories [&#10548;](#java-concurrency)
 
 There are two useful **File** utility methods, which can be used to create directories:
 
@@ -234,7 +240,7 @@ public class CreateDir {
 
 **Note:** Java automatically takes care of path separators on UNIX and Windows as per conventions. If you use a forward slash (/) on a Windows version of Java, the path will still resolve correctly.
 
-### Listing Directories
+### Listing Directories [&#10548;](#java-concurrency)
 
 You can use **list()** method provided by File object to list down all the files and directories available in a directory as follows:
 
