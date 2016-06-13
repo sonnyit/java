@@ -33,7 +33,7 @@ Put this code in a file's name "MyFirstJavaProgram.java" (must exactly typo). Co
 ```bash
 $ javac MyFirstJavaProgram.java
 $ java MyFirstJavaProgram
-$ Hello World
+Hello World
 ```
 
 ## Basic Syntax
