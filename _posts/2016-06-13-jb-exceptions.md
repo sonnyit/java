@@ -89,6 +89,6 @@ Here are the few most frequently seen unchecked exceptions –
 * IllegalArgumentException
 
 ## Reference [&#10548;](#tables)
-* [http://beginnersbook.com/2013/04/java-exception-handling/]
-* [http://beginnersbook.com/2013/04/java-checked-unchecked-exceptions-with-examples/]
-* [http://beginnersbook.com/2013/04/try-catch-in-java/]
+* [beginnersbook-exception-handling](http://beginnersbook.com/2013/04/java-exception-handling/)
+* [beginnersbook-checked-unchecked-exceptions](http://beginnersbook.com/2013/04/java-checked-unchecked-exceptions-with-examples/)
+* [beginnersbook-try-catch](http://beginnersbook.com/2013/04/try-catch-in-java/)
