@@ -36,7 +36,6 @@ List questions:
 
 ---
 1. ##### What are Checked and Unchecked Exception? [&#10548;](#exceptions)
-
   * **Checked** --
     * exception that the program has to handle with and to be able to successfully recover from.
     * is checked by the compiler at compile time. It's mandatory for a method to either handle the checked exception or declare them in their throws clause. These are the ones which are a sub class of Exception but doesn't descend from RuntimeException.
@@ -44,13 +43,10 @@ List questions:
     * usually signal of a programmatic error. Potentially can happen anywhere.
     * The unchecked exception is the descendant of RuntimeException and not checked by the compiler at compile time.
   * **Error** -- something very bad happened to the JVM or system. Usually cannot be recovered from.
-
+  
   [detail](http://java67.blogspot.sg/2012/12/difference-between-runtimeexception-and-checked-exception.html)
-
 2. ##### What are runtime exceptions? [&#10548;](#exceptions)
-
   See above.
-
 3. ##### What is the difference between error and an exception? [&#10548;](#exceptions)
 
   See above.
