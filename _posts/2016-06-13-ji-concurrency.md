@@ -162,7 +162,7 @@ One of trick Java question from early days, but still good enough to differentia
 ### 12. Describe different ways to create a thread. [&#10548;](#java-concurrency)
 
 1.
-```
+```java
 class MyRunnable extends SomeOtherClass implements Runnable {
     public void run(){
         // code that has to run in a thread
@@ -175,7 +175,7 @@ r.start();
 ```
 
 2.
-```
+```java
 class MyThread extends Thread {
     public void run(){
         // code that has to run in a thread
@@ -186,7 +186,7 @@ Thread t = new MyThred();
 t.start();
 ```
 3.
-```
+```java
 class MySomething extends Something {
     public void doSomeStuff() {...}
 }
@@ -219,9 +219,9 @@ The main difference between *synchronized block* and *synchronized method* is th
 
 The mechanism is used to allow one thread to signal another. E.g. Consumer signals that he's waiting for the next object to process, or Producer signals that a new object is ready to be processed.
 
-* wait( ) tells the calling thread to give up the monitor and go to sleep until some other thread enters the same monitor and calls notify( ).
-* notify( ) wakes up the a thread (a random one?) that called wait( ) on the same object.
-* notifyAll( ) wakes up all the threads that called wait( ) on the same object.
+* wait() tells the calling thread to give up the monitor and go to sleep until some other thread enters the same monitor and calls notify( ).
+* notify() wakes up the a thread (a random one?) that called wait( ) on the same object.
+* notifyAll() wakes up all the threads that called wait( ) on the same object.
 
 ### 15. Why wait and notify method are called from synchronized block? [&#10548;](#java-concurrency)
 
@@ -252,7 +252,7 @@ In short, since wait, notify and notifyAll operate at lock level, it make sense 
 ### 18. How do you call wait() method? using if block or loop? Why? [&#10548;](#java-concurrency)
 wait() method should always be called in loop because it's possible that until thread gets CPU to start running again the condition might not hold, so its always better to check condition in loop before proceeding. Here is the standard idiom of using wait and notify method in Java:
 
-```
+```java
 // The standard idiom for using the wait method
 synchronized (obj) {
    while (condition does not hold)
@@ -385,7 +385,7 @@ Whenever there will be a need: most probably when there will be concurrent acces
 
 Deadlock is a state in which some threads of an application (at least two threads) are mutually blocked (A waits for resource X held by B, while B waits for resource Y held by A). Neither can continue in this case. Note that only part of application can be in a deadlock state while other thread continue their execution.
 
-```
+```java
 public class DeadlockTest {
 public static void main(String[] args) {
 
@@ -442,7 +442,7 @@ The Callable has the method public T call() throws Exception. When an ExecutorSe
 
 Example:
 
-```
+```java
  ExecutorService executor = Executors.newFixedThreadPool();
  Future<Integer> future = executor.submit(new Callable<Integer>(){
      public Integer call() throws Exception {
