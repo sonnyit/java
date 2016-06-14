@@ -17,7 +17,7 @@ tags:
 * [Java Static Import](#java-static-import-10548tables)
 * [Java Final Keyword](#java-final-keyword-10548tables)
   * [final arrays in Java](#final-arrays-in-java-10548tables)
-  * [Difference between C++ const variables and Java final variables](#difference-between-c++ const variables and Java final variables)
+  * [Difference between C++ const variables and Java final variables](#difference-between-c-const-variables-and-java-final-variables-10548tables)
   * [More discussion](#more-discussion-10548tables)
 * [References](#references-10548tables)
 
