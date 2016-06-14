@@ -64,7 +64,5 @@ Java is an interpreted language, so it will never be fast as a compiled language
 
 ![java-bytecode-flow](http://www.studytonight.com/java/images/java-platform-independent.jpg)
 
-### 5. Secure
-
 ## References
 * [studytonight-features-of-java](http://www.studytonight.com/java/features-of-java)
