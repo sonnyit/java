@@ -35,6 +35,8 @@ tags:
 
 An Exception can be anything which interrupts the normal flow of the program. When an exception occurs program processing gets terminated and doesn’t continue further. In such cases we get a system generated error message. The good thing about exceptions is that they can be handled.
 
+A Java Exception is an object that describes the exception that occurs in a program. When an exceptional events occurs in Java, an exception is said to be thrown. The code that 's responsible for doing something about the exception is called an exception handler.
+
 ### When an exception can occur? [&#10548;](#tables)
 
 Exception can occur at runtime (known as runtime exceptions) as well as at compile-time (known Compile-time exceptions).
@@ -46,8 +48,7 @@ There can be several reasons for an exception. For example, following situations
 * Opening a non-existing file
 * Network connection problem
 * Operands being manipulated are out of prescribed ranges
-* Class file missing which was supposed to be loaded and so on.
-* ...
+* Class file missing which was supposed to be loaded and so on
 
 ## Difference between error and exception [&#10548;](#tables)
 
@@ -92,11 +93,9 @@ Here are the few other Checked Exceptions –
 
 ### Unchecked exceptions [&#10548;](#tables)
 
-Unchecked exceptions are not checked at compile time. It means if your program is throwing an unchecked exception and even if you didn’t handle/declare that exception, the program won’t give a compilation error. Most of the times these exception occurs due to the bad data provided by user during the user-program interaction. It is up to the programmer to judge the conditions in advance, that can cause such exceptions and handle them appropriately. All Unchecked exceptions are direct sub classes of **RuntimeException** class.
-
-Runtime Exceptions are also known as Unchecked Exceptions as the compiler do not check whether the programmer has handled them or not but it’s the duty of the programmer to handle these exceptions and provide a safe exit.
-
-These exceptions need not be included in any method’s throws list because compiler does not check to see if a method handles or throws these exceptions.
+* Unchecked exceptions are not checked at compile time. It means if your program is throwing an unchecked exception and even if you didn’t handle/declare that exception, the program won’t give a compilation error. Most of the times these exception occurs due to the bad data provided by user during the user-program interaction. It is up to the programmer to judge the conditions in advance, that can cause such exceptions and handle them appropriately. All Unchecked exceptions are direct sub classes of **RuntimeException** class.
+* Runtime Exceptions are also known as Unchecked Exceptions as the compiler do not check whether the programmer has handled them or not but it’s the duty of the programmer to handle these exceptions and provide a safe exit.
+* These exceptions need not be included in any method’s throws list because compiler does not check to see if a method handles or throws these exceptions.
 
 Here are the few most frequently seen unchecked exceptions –
 
@@ -112,13 +111,13 @@ Here are the few most frequently seen unchecked exceptions –
 
 ## try-catch - Exception handling [&#10548;](#tables)
 
+Exception Handling is the mechanism to handle runtime malfunctions. We need to handle such exceptions to prevent abrupt termination of program.
+
 ### What is try-catch block? [&#10548;](#tables)
 
-The try block contains a block of program statements within which an exception might occur. A try block is always followed by a catch block, which handles the exception that occurs in associated try block.
-
-The corresponding catch block executes if an exception of a particular type occurs within the try block.
-
-A try block must followed by a catch block or finally block or both.
+* The try block contains a block of program statements within which an exception might occur. A try block is always followed by a catch block, which handles the exception that occurs in associated try block.
+* The corresponding catch block executes if an exception of a particular type occurs within the try block.
+* A try block must followed by a catch block or finally block or both.
 
 #### Syntax of try-catch in Java
 
@@ -135,7 +134,10 @@ catch (exception(type) e(object))‏
 
 ### Multiple catch [&#10548;](#tables)
 
-When an exception occurs in try block then compiler jumps to the first catch block and from there it sequentially checks the catch block one by one, if it finds a catch block which can handle the raised exception then it executes the code inside that catch block. If Compiler doesn’t find any suitable catch block then it shows a system generated message.
+* A try block can be followed by multiple catch blocks.
+* You can add any number of catch blocks after a single try block. If an exception occurs in the guarded code, the exception is passed to the first catch block in the list.
+* If the exception type of exception, matches with the first catch block it gets caught. If not, the exception is passed down to the next catch block.
+* This continue until the exception is caught or falls through all catches (will shows a system generated message)
 
 ### Unreachable catch block [&#10548;](#tables)
 
@@ -143,21 +145,16 @@ While using multiple catch statements, it is important to remember that: excepti
 
 ### Nested try statement [&#10548;](#tables)
 
-try statement can be nested inside another block of try.
-
-Nested try block is used when a part of a block may cause one error while entire block may cause another error.
-
-In case if inner try block does not have a catch handler for a particular exception then the outer try is checked for match.
+* try statement can be nested inside another block of try.
+* Nested try block is used when a part of a block may cause one error while entire block may cause another error.
+* In case if inner try block does not have a catch handler for a particular exception then the outer try is checked for match.
 
 ### What is finally block? [&#10548;](#tables)
 
-A **finally statement** must be associated with a **try statement**. It identifies a block of statements that needs to be executed **regardless of whether or not** an exception occurs within the try block.
-
-In normal execution the finally block is executed after try block. When any exception occurs first the catch block is executed and then finally block is executed.
-
-An exception in the finally block, exactly **behaves like any other exception**.
-
-The code present in the **finally block** executes even if the try or catch block contains control transfer statements like **return, break or continue**.
+* A **finally statement** must be associated with a **try statement**. It identifies a block of statements that needs to be executed **regardless of whether or not** an exception occurs within the try block.
+* In normal execution the finally block is executed after try block. When any exception occurs first the catch block is executed and then finally block is executed.
+* An exception in the finally block, exactly **behaves like any other exception**.
+* The code present in the **finally block** executes even if the try or catch block contains control transfer statements like **return, break or continue**.
 
 #### Syntax of finally block
 
