@@ -45,6 +45,8 @@ docs:
     children:
       - title: "Concurrency"
         url: /java-interview/ji-concurrency/
+      - title: "Exceptions"
+        url: /java-interview/ji-exceptions/
   - title: Others
     children:
       - title: "Agile"
