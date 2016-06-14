@@ -12,9 +12,9 @@ Exceptions
 
 List questions:
 
-1. [What are Checked and Unchecked Exception?](#1-what-are-checked-and-unchecked-exception-10548exceptions)
-1. [What are runtime exceptions?](#2-what-are-runtime-exceptions-10548exceptions)
-1. [What is the difference between error and an exception?](#3-what-is-the-difference-between-error-and-an-exception-10548exceptions)
+1. [What are Checked and Unchecked Exception?](#what-are-checked-and-unchecked-exception-10548exceptions)
+1. [What are runtime exceptions?](#what-are-runtime-exceptions-10548exceptions)
+1. [What is the difference between error and an exception?](#what-is-the-difference-between-error-and-an-exception-10548exceptions)
 1. [How to create custom exceptions?](#how-to-create-custom-exceptions-)
 1. [If I want an object of my class to be thrown as an exception object, what should I do?](#if-i-want-an-object-of-my-class-to-be-thrown-as-an-exception-object-what-should-i-do-)
 1. [If my class already extends from some other class what should I do if I want an instance of my class to be thrown as an exception object?](#if-my-class-already-extends-from-some-other-class-what-should-i-do-if-i-want-an-instance-of-my-class-to-be-thrown-as-an-exception-object-)
@@ -35,7 +35,8 @@ List questions:
 1. [The difference between throw and throws in Java?]()
 
 ---
-##### 1. What are Checked and Unchecked Exception? [&#10548;](#exceptions)
+
+#### 1. What are Checked and Unchecked Exception? [&#10548;](#exceptions)
 
   * **Checked** --
     * exception that the program has to handle with and to be able to successfully recover from.
@@ -47,11 +48,11 @@ List questions:
   
   [detail](http://java67.blogspot.sg/2012/12/difference-between-runtimeexception-and-checked-exception.html)
 
-##### 2. What are runtime exceptions? [&#10548;](#exceptions)
+#### 2. What are runtime exceptions? [&#10548;](#exceptions)
 
   See above.
 
-##### 3. What is the difference between error and an exception? [&#10548;](#exceptions)
+#### 3. What is the difference between error and an exception? [&#10548;](#exceptions)
 
   See above.
 
