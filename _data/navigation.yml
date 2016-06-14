@@ -13,6 +13,8 @@ main:
 docs:
   - title: Getting Started
     children:
+      - title: "Java Features"
+        url: /java-basic/jb-features/
       - title: "Basic Syntax"
         url: /java-basic/jb-basic-syntax/
       - title: "Object & Classes"
