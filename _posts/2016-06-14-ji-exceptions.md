@@ -130,7 +130,7 @@ List questions:
 
 ### 19. Bundled exceptions [&#10548;](#exceptions)
 
-  ```
+  ```java
   IllegalArgumentException
   ConcurrentModificationException
   IllegalStateException
@@ -149,8 +149,8 @@ List questions:
 
   the throw is used to actually throw an instance of java.lang.Throwable class, which means you can throw both Error and Exception using throw keyword e.g.
 
-  ```
-  throw new IllegalArgumentException("size must be multiple of 2")
+  ```java
+  throw new IllegalArgumentException("size must be multiple of 2");
   ```
 
   On the other hand, throws is used as part of method declaration and signals which kind of exceptions are thrown by this method so that its caller can handle them. It's mandatory to declare any unhandled checked exception in throws clause in Java.
