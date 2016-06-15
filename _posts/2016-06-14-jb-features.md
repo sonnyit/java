@@ -12,15 +12,15 @@ The prime reason behind creation of Java was to bring **portability** and **secu
 
 ### Tables
 
-* [Simple](#simple-10548tables)
-* [Object Oriented](#object-oriented-10548tables)
-* [Robust](#robust-10548tables)
-* [Platform Independent](#platform-independent-10548tables)
-* [Secure](#secure-10548tables)
-* [Multi Threading](#multi-threading-10548tables)
-* [Architectural Neutral](#architectural-neutral-10548tables)
-* [Portable](#portable-10548tables)
-* [High Performance](#high-performance-10548tables)
+1. [Simple](#simple-10548tables)
+2. [Object Oriented](#object-oriented-10548tables)
+3. [Robust](#robust-10548tables)
+4. [Platform Independent](#platform-independent-10548tables)
+5. [Secure](#secure-10548tables)
+6. [Multi Threading](#multi-threading-10548tables)
+7. [Architectural Neutral](#architectural-neutral-10548tables)
+8. [Portable](#portable-10548tables)
+9. [High Performance](#high-performance-10548tables)
 
 ### 1. Simple [&#10548;](#tables)
 
