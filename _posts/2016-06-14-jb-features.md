@@ -44,11 +44,15 @@ Unlike other programming languages such as C, C++, etc. which are compiled into 
 
 On compilation, Java program is compiled into bytecode. This bytecode is platform independent and can be run on any machine, plus this bytecode format also provide security. Any machine with Java Runtime Environment can run Java programs.
 
+![java-bytecode-flow](http://www.studytonight.com/java/images/java-platform-independent.jpg)
+
 ### 5. Secure [&#10548;](#tables)
 
 When it comes to security, Java is always the first choice. Java program always runs in Java runtime environment with almost null interaction with system OS, hence it is more secure.
 
 ### 6. Multi Threading [&#10548;](#tables)
+
+Java multithreading feature makes it possible to write program that can do many tasks simultaneously. Benefit of multithreading is that it utilizes same memory and other resources to execute multiple threads at the same time, like While typing, grammatical errors are checked along.
 
 ### 7. Architectural Neutral [&#10548;](#tables)
 
@@ -61,8 +65,6 @@ Java byte code can be carried to any platform
 ### 9. High Performance [&#10548;](#tables)
 
 Java is an interpreted language, so it will never be fast as a compiled language like C or C++. But Java enables high performance with the use of Just-In-Time compiler.
-
-![java-bytecode-flow](http://www.studytonight.com/java/images/java-platform-independent.jpg)
 
 ## References
 * [studytonight-features-of-java](http://www.studytonight.com/java/features-of-java)
