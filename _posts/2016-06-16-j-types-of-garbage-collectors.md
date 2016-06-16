@@ -63,7 +63,7 @@ G1 garbage collector is used for large heap memory areas. It separates the heap 
 
 Turn on the **–XX:+UseG1GC** JVM argument to use the G1 garbage collector.
 
-### Java 8 Improvement [&#10548;](#tables)
+#### Java 8 Improvement [&#10548;](#tables)
 
 Turn on the **-XX:+UseStringDeduplication** JVM argument while using **G1** garbage collector. This optimizes the heap memory by removing duplicate String values to a single char[] array. This option is introduced in Java 8u 20.
 

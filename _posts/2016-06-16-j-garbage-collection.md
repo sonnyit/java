@@ -11,13 +11,15 @@ tags:
 ### Tables
 
 * [Introduction](#introduction-10548tables)
+  * [Can the Garbage Collection be forced explicitly?](#can-the-garbage-collection-be-forced-explicitly-10548tables)
+  * [Advantages of Garbage Collection](#advantages-of-garbage-collection-10548tables)
   * [JVM architecture](#jvm-architecture-10548tables)
   * [Java Heap Memory](#java-heap-memory-10548tables)
 * [How Java Garbage Collection Works?](#how-java-garbage-collection-works-10548tables)
   * [Java Garbage Collection GC Initiation](#java-garbage-collection-gc-initiation-10548tables)
   * [Java Garbage Collection Process](#java-garbage-collection-process-10548tables)
   * [Finalization of Instances in Garbage Collection](#finalization-of-instances-in-garbage-collection-10548tables)
-* [When an object becomes eligible for garbage collection?](#when-an-object-becomes eligible-for-garbage-collection-10548tables)
+* [When an object becomes eligible for garbage collection?](#when-an-object-becomes-eligible-for-garbage-collection-10548tables)
 * [References](#references-10548tables)
 
 ## Introduction [&#10548;](#tables)
@@ -27,6 +29,16 @@ In Java, allocation and de-allocation of memory space for objects are done by th
 Unlike C language the developers need not write code for garbage collection in Java. This is one among the many features that made Java popular and helps programmers write better Java applications.
 
 Java garbage collection is an automatic process to manage the runtime memory used by programs. By doing it automatic JVM relieves the programmer of the overhead of assigning and freeing up memory resources in a program.
+
+### Can the Garbage Collection be forced explicitly?
+
+No, the Garbage Collection can not be forced explicitly. We **may request** JVM for garbage collection by calling **System.gc()** or **Runtime.gc()** method. But this **does not guarantee** that JVM will perform the garbage collection.
+
+### Advantages of Garbage Collection
+
+1. Programmer doesn't need to worry about dereferencing an object.
+2. It is done automatically by JVM.
+3. Increases memory efficiency and decreases the chances for memory leak.
 
 ### JVM architecture [&#10548;](#tables)
 
@@ -98,6 +110,24 @@ Though there is a guarantee that the finalize() will be invoked before reclaimin
 * Any uncaught exception thrown during finalize process is ignored silently and the finalization of that instance is cancelled.
 * JVM specification does not discuss about garbage collection with respect to weak references and claims explicitly about it. Details are left to the implementer.
 * Garbage collection is done by a daemon thread.
+
+#### finalize() method
+
+Sometime an object will need to perform some specific task before it is destroyed such as closing an open connection or releasing any resources held. To handle such situation **finalize()** method is used. **finalize()** method is called by garbage collection thread before collecting object. Its the last chance for any object to perform cleanup utility.
+
+Signature of **finalize()** method
+
+```java
+protected void finalize() {
+ //finalize-code
+}
+```
+
+#### Some Important Points to Remember
+
+1. **finalize()** method is defined in **java.lang.Object** class, therefore it is available to all the classes.
+2. **finalize()** method is declare as **proctected** inside Object class.
+3. **finalize()** method gets called only once by GC threads.
 
 ## When an object becomes eligible for garbage collection? [&#10548;](#tables)
 
