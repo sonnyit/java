@@ -29,8 +29,9 @@ class A {
  
 public class MainClass {
     public static void main(String[] args) {
-        A a = new A();    //Strong Reference - at this point, this object can't be garbage collected
-        a = null;    //Now, object to which 'a' is pointing earlier is eligible for garbage collection.
+        A a = new A();  // Strong Reference - at this point, this object can't be garbage collected
+
+        a = null;  // Now, object to which 'a' is pointing earlier is eligible for garbage collection.
     }
 }
 ```
@@ -54,11 +55,14 @@ class A {
  
 public class MainClass {
     public static void main(String[] args) {
-        A a = new A();      //Strong Reference
-        //Creating Soft Reference to A-type object to which 'a' is also pointing
+        A a = new A();  // Strong Reference
+        
+        // Creating Soft Reference to A-type object to which 'a' is also pointing
         SoftReference<A> softA = new SoftReference<A>(a);
-        a = null;    //Now, A-type object to which 'a' is pointing earlier is eligible for garbage collection. But, it will be garbage collected only when JVM needs memory.
-        a = softA.get();    //You can retrieve back the object which has been softly referenced
+        
+        a = null;  // Now, A-type object to which 'a' is pointing earlier is eligible for garbage collection. But, it will be garbage collected only when JVM needs memory.
+        
+        a = softA.get();  // You can retrieve back the object which has been softly referenced
     }
 }
 ```
@@ -80,11 +84,14 @@ class A {
  
 public class MainClass {
     public static void main(String[] args) {
-        A a = new A();      //Strong Reference
-        //Creating Weak Reference to A-type object to which 'a' is also pointing.
+        A a = new A();  // Strong Reference
+        
+        // Creating Weak Reference to A-type object to which 'a' is also pointing.
         WeakReference<A> weakA = new WeakReference<A>(a);
-        a = null;    //Now, A-type object to which 'a' is pointing earlier is available for garbage collection.
-        a = weakA.get();    //You can retrieve back the object which has been weakly referenced.
+        
+        a = null;  // Now, A-type object to which 'a' is pointing earlier is available for garbage collection.
+        
+        a = weakA.get();  // You can retrieve back the object which has been weakly referenced.
     }
 }
 ```
@@ -102,13 +109,17 @@ class A {
  
 public class MainClass {
     public static void main(String[] args) {
-        A a = new A();      //Strong Reference
-        //Creating ReferenceQueue
+        A a = new A();  // Strong Reference
+        
+        // Creating ReferenceQueue
         ReferenceQueue<A> refQueue = new ReferenceQueue<A>();
-        //Creating Phantom Reference to A-type object to which 'a' is also pointing
+        
+        // Creating Phantom Reference to A-type object to which 'a' is also pointing
         PhantomReference<A> phantomA = new PhantomReference<A>(a, refQueue);
-        a = null;    //Now, A-type object to which 'a' is pointing earlier is available for garbage collection. But, this object is kept in 'refQueue' before removing it from the memory.
-        a = phantomA.get();    //it always returns null
+        
+        a = null;  // Now, A-type object to which 'a' is pointing earlier is available for garbage collection. But, this object is kept in 'refQueue' before removing it from the memory.
+        
+        a = phantomA.get();  // it always returns null
     }
 }
 ```
