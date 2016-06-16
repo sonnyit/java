@@ -122,13 +122,13 @@ For example, exceptions are intrusive (eg if they're not handled the program die
 
 ### 17. Cases when the finally block isn't executed [&#10548;](#exceptions)
 
-* System.exit() in try or catch block.
-* Error in one of the blocks (e.g. OutOfMemoryError)
-* Thread is terminated, while the whole application still continues.
+* The death of a Thread
+* Using of the System.exit() method.
+* Due to an exception arising in the finally block.
 
 ### 18. What is exception handling mechanism [&#10548;](#exceptions)
 
-Blah-blah-blah.
+Exception Handling is the mechanism to handle runtime malfunctions. We need to handle such exceptions to prevent abrupt termination of program.
 
 ### 19. Bundled exceptions [&#10548;](#exceptions)
 
@@ -143,6 +143,8 @@ ArrayIndexOutOfBoundsException
 IOException
 ```
 
+![exception-classes-hierarchy](http://beginnersbook.com/wp-content/uploads/2013/04/Exception-classes-Hierarchy.png)
+
 ### 20. How to avoid catch block? [&#10548;](#exceptions)
 
 Declare that method throws the exception. You can still use try/finally.
@@ -156,5 +158,12 @@ throw new IllegalArgumentException("size must be multiple of 2");
 ```
 
 On the other hand, throws is used as part of method declaration and signals which kind of exceptions are thrown by this method so that its caller can handle them. It's mandatory to declare any unhandled checked exception in throws clause in Java.
+
+So, 
+
+1. throws clause in used to declare an exception and throw keyword is used to throw an exception explicitly.
+2. If we see syntax, throw is followed by an instance variable and throws is followed by exception class names.
+3. The keyword throw is used inside method body to invoke an exception and throws clause is used in method declaration (signature).
+4. By using throw keyword in java, you cannot throw more than one exception but using throws you can declare multiple exceptions.
 
 [detail](http://javarevisited.blogspot.sg/2012/02/difference-between-throw-and-throws-in.html)
