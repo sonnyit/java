@@ -60,7 +60,7 @@ Compiler generates bytecodes, which have nothing to do with a particular compute
 
 ### 8. Portable [&#10548;](#tables)
 
-Java byte code can be carried to any platform
+Java bytecode can be carried to any platform.
 
 ### 9. High Performance [&#10548;](#tables)
 

@@ -20,6 +20,8 @@ tags:
   * [Checked exceptions](#checked-exceptions-10548tables)
   * [Unchecked exceptions](#unchecked-exceptions-10548tables)
   * [Exception hierarchy](#exception-hierarchy-10548tables)
+* [User defined Exception subclass](#user-defined-exception-subclass-10548tables)
+  * [User custom exceptions - Points to remember](#user-custom exceptions - Points to remember)
 * [try-catch - Exception handling](#try-catch---exception-handling-10548tables)
   * [What is try-catch block?](#what-is-try-catch-block-10548tables)
   * [Multiple catch](#multiple-catch-10548tables)
@@ -108,6 +110,49 @@ Here are the few most frequently seen unchecked exceptions –
 ### Exception hierarchy [&#10548;](#tables)
 
 ![exception-hierarchy](http://beginnersbook.com/wp-content/uploads/2013/04/Exception-classes-Hierarchy.png)
+
+## User defined Exception subclass
+
+You can also create your own exception sub class simply by extending java **Exception** class. You can define a constructor for your Exception sub class (not compulsory) and you can override the **toString()** function to display your customized message on catch.
+
+```java
+class MyException extends Exception {
+ private int ex;
+ MyException(int a) {
+  ex=a;
+ }
+ public String toString() {
+  return "MyException[" + ex +"] is less than zero";
+ }
+}
+
+class Test {
+ static void sum(int a,int b) throws MyException {
+  if(a<0) {
+   throw new MyException(a);
+  }
+  else { 
+   System.out.println(a+b); 
+  }
+ }
+
+ public static void main(String[] args) {
+  try {
+   sum(-10, 10);
+  }
+  catch(MyException me) {
+   System.out.println(me);
+  }
+ }
+}
+```
+
+### User custom exceptions - Points to remember
+
+1. Extend the Exception class to create your own ecxeption class.
+2. You don't have to implement anything inside it, no methods are required.
+3. You can have a Constructor if you want.
+4. You can override the toString() function, to display customized message.
 
 ## try-catch - Exception handling [&#10548;](#tables)
 
