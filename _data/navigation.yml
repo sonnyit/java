@@ -45,6 +45,10 @@ docs:
         url: /java-object-oriented/joo-java-encapsulation/
       - title: "Java Inheritance"
         url: /java-object-oriented/joo-java-inheritance/
+  - title: Java Garbage Collection
+    children:
+      - title: "Java Reference Types"
+        url: /java-garbage-collection/j-reference-types/
   - title: Interview Questions and Answers
     children:
       - title: "Concurrency"
