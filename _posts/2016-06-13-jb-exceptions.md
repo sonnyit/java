@@ -113,7 +113,7 @@ Here are the few most frequently seen unchecked exceptions –
 
 ## User defined Exception subclass [&#10548;](#tables)
 
-You can also create your own exception sub class simply by extending java **Exception** class. You can define a constructor for your Exception sub class (not compulsory) and you can override the **toString()** function to display your customized message on catch.
+You can also create your own exception sub class simply by extending java **Exception** class or **RuntimeException** class. You can define a constructor for your Exception sub class (not compulsory) and you can override the **toString()** function to display your customized message on catch.
 
 ```java
 class MyException extends Exception {
@@ -149,10 +149,12 @@ class Test {
 
 ### User custom exceptions - Points to remember [&#10548;](#tables)
 
-1. Extend the Exception class to create your own ecxeption class.
+1. Extend the **Exception class** or **RuntimeException** class to create your own exception class.
 2. You don't have to implement anything inside it, no methods are required.
 3. You can have a Constructor if you want.
 4. You can override the toString() function, to display customized message.
+
+[useful link][javarevisited-how-to-create-custom-exception]
 
 ## try-catch - Exception handling [&#10548;](#tables)
 
@@ -243,3 +245,4 @@ The circumstances that prevent execution of the code in a finally block are:
 * [beginnersbook-exception-handling](http://beginnersbook.com/2013/04/java-exception-handling/)
 * [beginnersbook-checked-unchecked-exceptions](http://beginnersbook.com/2013/04/java-checked-unchecked-exceptions-with-examples/)
 * [beginnersbook-try-catch](http://beginnersbook.com/2013/04/try-catch-in-java/)
+* [javarevisited-how-to-create-custom-exception]: http://javarevisited.blogspot.com/2014/06/how-to-create-custom-exception-in-java.html

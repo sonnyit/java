@@ -60,6 +60,8 @@ See above.
 
 Extend from **Exception** class or from **RuntimeException** class.
 
+[detail](http://javarevisited.blogspot.com/2014/06/how-to-create-custom-exception-in-java.html)
+
 ### 5. If I want an object of my class to be thrown as an exception object, what should I do? [&#10548;](#exceptions)
 
 Extend from Exception class (or any of its subclasses)
