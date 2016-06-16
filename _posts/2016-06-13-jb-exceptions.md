@@ -21,7 +21,7 @@ tags:
   * [Unchecked exceptions](#unchecked-exceptions-10548tables)
   * [Exception hierarchy](#exception-hierarchy-10548tables)
 * [User defined Exception subclass](#user-defined-exception-subclass-10548tables)
-  * [User custom exceptions - Points to remember](#user-custom exceptions - Points to remember)
+  * [User custom exceptions - Points to remember](#user-custom-exceptions---points-to-remember-10548tables)
 * [try-catch - Exception handling](#try-catch---exception-handling-10548tables)
   * [What is try-catch block?](#what-is-try-catch-block-10548tables)
   * [Multiple catch](#multiple-catch-10548tables)
@@ -111,7 +111,7 @@ Here are the few most frequently seen unchecked exceptions –
 
 ![exception-hierarchy](http://beginnersbook.com/wp-content/uploads/2013/04/Exception-classes-Hierarchy.png)
 
-## User defined Exception subclass
+## User defined Exception subclass [&#10548;](#tables)
 
 You can also create your own exception sub class simply by extending java **Exception** class. You can define a constructor for your Exception sub class (not compulsory) and you can override the **toString()** function to display your customized message on catch.
 
@@ -147,7 +147,7 @@ class Test {
 }
 ```
 
-### User custom exceptions - Points to remember
+### User custom exceptions - Points to remember [&#10548;](#tables)
 
 1. Extend the Exception class to create your own ecxeption class.
 2. You don't have to implement anything inside it, no methods are required.
