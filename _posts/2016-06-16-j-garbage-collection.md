@@ -29,11 +29,9 @@ Heap memory is the runtime data area where the instances will be store and the g
 It is essential to understand the role of heap memory in JVM memory model. At runtime the Java instances are stored in the heap memory area. When an object is not referenced anymore it becomes eligible for eviction from heap memory. During garbage collection process, those objects are evicted from heap memory and the space is reclaimed. Heap memory has three major areas:
 
 1. Young Generation
-
   * Eden Space (any instance enters the runtime memory area through eden)
   * S0 Survivor Space (older instances moved from eden to S0)
   * S1 Survivor Space (older instances moved from S0 to S1)
-  
 2. Old Generation (instances promoted from S1 to tenured)
 3. Permanent Generation (contains meta information like class, method detail). **Note:** Permanent Generation (Permgen) space is removed from Java SE 8 features.
 
