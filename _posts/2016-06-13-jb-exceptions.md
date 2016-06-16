@@ -154,7 +154,7 @@ class Test {
 3. You can have a Constructor if you want.
 4. You can override the toString() function, to display customized message.
 
-[useful link][3]
+[javarevisited-how-to-create-custom-exception](http://javarevisited.blogspot.com/2014/06/how-to-create-custom-exception-in-java.html)
 
 ## try-catch - Exception handling [&#10548;](#tables)
 
@@ -245,5 +245,4 @@ The circumstances that prevent execution of the code in a finally block are:
 * [beginnersbook-exception-handling](http://beginnersbook.com/2013/04/java-exception-handling/)
 * [beginnersbook-checked-unchecked-exceptions](http://beginnersbook.com/2013/04/java-checked-unchecked-exceptions-with-examples/)
 * [beginnersbook-try-catch](http://beginnersbook.com/2013/04/try-catch-in-java/)
-
-[3]: http://javarevisited.blogspot.com/2014/06/how-to-create-custom-exception-in-java.html
+* [javarevisited-how-to-create-custom-exception](http://javarevisited.blogspot.com/2014/06/how-to-create-custom-exception-in-java.html)
