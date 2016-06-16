@@ -245,4 +245,5 @@ The circumstances that prevent execution of the code in a finally block are:
 * [beginnersbook-exception-handling](http://beginnersbook.com/2013/04/java-exception-handling/)
 * [beginnersbook-checked-unchecked-exceptions](http://beginnersbook.com/2013/04/java-checked-unchecked-exceptions-with-examples/)
 * [beginnersbook-try-catch](http://beginnersbook.com/2013/04/try-catch-in-java/)
-* [3]: http://javarevisited.blogspot.com/2014/06/how-to-create-custom-exception-in-java.html
+
+[3]: http://javarevisited.blogspot.com/2014/06/how-to-create-custom-exception-in-java.html
