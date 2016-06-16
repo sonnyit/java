@@ -49,6 +49,8 @@ docs:
     children:
       - title: "Java Reference Types"
         url: /java-garbage-collection/j-reference-types/
+      - title: "Introduction Garbage Collection"
+        url: /java-garbage-collection/j-garbage-collection/
   - title: Interview Questions and Answers
     children:
       - title: "Concurrency"

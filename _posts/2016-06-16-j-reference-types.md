@@ -75,7 +75,11 @@ When 'a' is made to point to null, object to which 'a' is pointing earlier becom
 
 ## Weak Reference [&#10548;](#tables)
 
-**JVM ignores the weak references**. That means objects which has only **week references are eligible for garbage collection**. They are likely to be garbage collected when JVM runs garbage collector thread.
+**JVM ignores the weak references**.
+
+That means objects which has only **week references are eligible for garbage collection**.
+
+They are likely to be garbage collected when JVM runs garbage collector thread.
 
 ```java
 class A {
@@ -100,7 +104,11 @@ public class MainClass {
 
 ## Phantom Reference [&#10548;](#tables)
 
-The objects which are being referenced by **phantom references** are **eligible for garbage collection**. But, before removing them from the memory, JVM puts them in a queue called **'reference queue'** . They are put in a reference queue after calling finalize() method on them. You can't retrieve back the objects which are being phantom referenced. That means calling get() method on phantom reference always returns null.
+The objects which are being referenced by **phantom references** are **eligible for garbage collection**. But, before removing them from the memory, JVM puts them in a queue called **'reference queue'** .
+
+They are put in a reference queue after calling finalize() method on them.
+
+You can't retrieve back the objects which are being phantom referenced. That means calling get() method on phantom reference always returns null.
 
 ```java
 class A {
