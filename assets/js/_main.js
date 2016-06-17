@@ -25,8 +25,8 @@ $(document).ready(function(){
   stickySideBar();
 
   // sonny add
-  $('.nav__sub-title').click(function() {
-    $(this).parent().find('ul').toggle();
+  $('.nav__list > ul li a').click(function() {
+    $(this).parent().find('ul:first').toggle();
   });
   //
 
