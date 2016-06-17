@@ -16,7 +16,7 @@
 
           <a href="{{ domain }}{{ nav.url }}"><span class="nav__sub-title" data-toggle="collapse" data-target=".nav-collapse">{{ nav.title }}</span></a>
         {% else %}
-          <span class="nav__sub-title">{{ nav.title }}</span>
+          <span class="nav__sub-title" data-toggle="collapse" data-target=".nav-collapse">{{ nav.title }}</span>
         {% endif %}
 
         {% if nav.children != null %}
