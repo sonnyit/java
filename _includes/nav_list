@@ -14,9 +14,9 @@
             {% assign domain = base_path %}
           {% endif %}
 
-          <a href="{{ domain }}{{ nav.url }}"><a class="nav__sub-title" onclick="toggle_visibility('sub-title_child');">{{ nav.title }}</a></a>
+          <a href="{{ domain }}{{ nav.url }}"><a class="nav__sub-title" onclick="toggle_visibility(this);">{{ nav.title }}</a></a>
         {% else %}
-          <a class="nav__sub-title" onclick="toggle_visibility('sub-title_child');">{{ nav.title }}</a>
+          <a class="nav__sub-title" onclick="toggle_visibility(this);">{{ nav.title }}</a>
         {% endif %}
 
         {% if nav.children != null %}
