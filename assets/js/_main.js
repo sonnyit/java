@@ -25,9 +25,9 @@ $(document).ready(function(){
   stickySideBar();
 
   // sonny add
-  $('.nav a:not(.dropdown-toggle)').click(function(){
-    $('.nav-collapse').collapse('hide');
-  });
+  //$('.nav a:not(.dropdown-toggle)').click(function(){
+  //  $('.nav-collapse').collapse('hide');
+  //});
   //
 
   $(window).resize(function(){

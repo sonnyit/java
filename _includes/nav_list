@@ -14,13 +14,13 @@
             {% assign domain = base_path %}
           {% endif %}
 
-          <a href="{{ domain }}{{ nav.url }}"><a class="nav__sub-title" data-toggle="collapse" data-target=".nav-collapse">{{ nav.title }}</a></a>
+          <a href="{{ domain }}{{ nav.url }}"><a class="nav__sub-title" data-toggle="collapse" href="#nav-collapse">{{ nav.title }}</a></a>
         {% else %}
-          <a class="nav__sub-title" data-toggle="collapse" data-target=".nav-collapse">{{ nav.title }}</a>
+          <a class="nav__sub-title" data-toggle="collapse" href="#nav-collapse">{{ nav.title }}</a>
         {% endif %}
 
         {% if nav.children != null %}
-        <div class="nav-collapse">
+        <div id="nav-collapse" class="collapse">
         <ul class="nav">
           {% for child in nav.children %}
             {% comment %}internal/external URL check{% endcomment %}
