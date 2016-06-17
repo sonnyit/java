@@ -13,16 +13,16 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
 
-    alert("I am an alert box!");
-
-    $(function() {
-      $("#nav__sub-title").click(function() {
-        alert("I am an alert box!");
-        $(this).parent().children('ul').toggle();
-      });
-    });
-
+<script type="text/javascript">
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
 </script>
 
 <!-- For all browsers -->

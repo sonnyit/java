@@ -14,13 +14,13 @@
             {% assign domain = base_path %}
           {% endif %}
 
-          <a href="{{ domain }}{{ nav.url }}"><a id="nav__sub-title">{{ nav.title }}</a></a>
+          <a href="{{ domain }}{{ nav.url }}"><a id="nav__sub-title" onclick="toggle_visibility('foo');">{{ nav.title }}</a></a>
         {% else %}
-          <a id="nav__sub-title">{{ nav.title }}</a>
+          <a id="nav__sub-title" onclick="toggle_visibility('foo');">{{ nav.title }}</a>
         {% endif %}
 
         {% if nav.children != null %}
-        <ul>
+        <ul id="foo">
           {% for child in nav.children %}
             {% comment %}internal/external URL check{% endcomment %}
             {% if child.url contains "://" %}
