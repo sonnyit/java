@@ -21,7 +21,7 @@
 
         {% if nav.children != null %}
         <div class="nav-collapse">
-        <ul>
+        <ul class="nav">
           {% for child in nav.children %}
             {% comment %}internal/external URL check{% endcomment %}
             {% if child.url contains "://" %}
