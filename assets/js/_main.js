@@ -26,7 +26,7 @@ $(document).ready(function(){
 
   // sonny add
   $('.nav__sub-title').click(function(){
-    $(this).find('ul').toggle();
+    $(this).parent().find('ul').toggle();
   });
   //
 
