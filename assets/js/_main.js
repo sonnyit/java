@@ -24,15 +24,6 @@ $(document).ready(function(){
 
   stickySideBar();
 
-  // sonny add
-  $('.nav__sub-title').hover(function() {
-    $(this).parent().children('ul').show();
-  },
-  function(){
-    $(this).parent().children('ul').hide();
-  });
-  //
-
   $(window).resize(function(){
     stickySideBar();
   });
@@ -82,4 +73,9 @@ $(document).ready(function(){
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
+  // sonny add
+  $('.nav__sub-title').click(function() {
+    $(this).parent().children('ul').toggle();
+  });
+  //
 });
