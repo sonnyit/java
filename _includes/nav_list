@@ -14,9 +14,9 @@
             {% assign domain = base_path %}
           {% endif %}
 
-          <a href="{{ domain }}{{ nav.url }}"><a class="nav__sub-title">{{ nav.title }}</a></a>
+          <a href="{{ domain }}{{ nav.url }}"><a class="nav_sub_title">{{ nav.title }}</a></a>
         {% else %}
-          <a class="nav__sub-title">{{ nav.title }}</a>
+          <a class="nav_sub_title">{{ nav.title }}</a>
         {% endif %}
 
         {% if nav.children != null %}
