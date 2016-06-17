@@ -16,9 +16,11 @@
 
     alert("I am an alert box!");
 
-    $('.nav__sub-title').click(function() {
-      alert("I am an alert box!");
-      $(this).parent().children('ul').toggle();
+    $(function() {
+      $('.nav__sub-title').click(function() {
+        alert("I am an alert box!");
+        $(this).parent().children('ul').toggle();
+      });
     });
 
 </script>
