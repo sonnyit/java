@@ -74,7 +74,7 @@ $(document).ready(function(){
   });
 
   // sonny add
-  $('.nav__sub-title').click(function() {
+  $('.nav__sub-title').on('click', function() {
     $(this).parent().children('ul').toggle();
   });
   //
