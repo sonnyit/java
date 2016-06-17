@@ -24,6 +24,16 @@ $(document).ready(function(){
 
   stickySideBar();
 
+  // sonny add
+  $(function() {
+    $('.nav__sub-title a').on('click', function(){
+        if($('.navbar-toggle').css('display') !='none'){
+            $(".navbar-toggle").trigger( "click" );
+        }
+    });
+});
+  //
+
   $(window).resize(function(){
     stickySideBar();
   });
