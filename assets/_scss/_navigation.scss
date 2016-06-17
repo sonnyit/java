@@ -357,6 +357,9 @@
   border-bottom: 1px solid $border-color;
 }
 
+.nav__sub-title:hover {
+  text-decoration: underline;
+}
 
 /*
    Table of contents navigation
