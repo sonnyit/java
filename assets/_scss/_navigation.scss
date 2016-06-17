@@ -355,10 +355,14 @@
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
-}
 
-.nav__sub-title:hover {
-  text-decoration: none;
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 /*
