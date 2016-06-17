@@ -356,12 +356,12 @@
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
 
-  a {
-    text-decoration: none;
+  list-style-type: none;
+  white-space: nowrap;
 
-    &:hover {
-      text-decoration: none;
-    }
+  &--lg {
+    padding-right: 2em;
+    font-weight: 200;
   }
 }
 
