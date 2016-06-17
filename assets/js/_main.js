@@ -75,6 +75,7 @@ $(document).ready(function(){
 
   // sonny add
   $('.nav__sub-title').on('click', function() {
+    alert("I am an alert box!");
     $(this).parent().children('ul').toggle();
   });
   //
