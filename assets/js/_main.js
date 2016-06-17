@@ -25,15 +25,9 @@ $(document).ready(function(){
   stickySideBar();
 
   // sonny add
-  $ var sonnyAdd = function() {
-    $('.nav__sub-title a').on('click', function(){
-        if($('.navbar-toggle').css('display') !='none'){
-            $(".navbar-toggle").trigger( "click" );
-        }
-    });
-  };
-
-  sonnyAdd();
+  $('.nav__sub-title a:not(.dropdown-toggle)').click(function(){
+    $('.nav-collapse').collapse('hide');
+  });
   //
 
   $(window).resize(function(){
