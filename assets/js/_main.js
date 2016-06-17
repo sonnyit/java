@@ -25,13 +25,15 @@ $(document).ready(function(){
   stickySideBar();
 
   // sonny add
-  $(function() {
+  $ var sonnyAdd = function() {
     $('.nav__sub-title a').on('click', function(){
         if($('.navbar-toggle').css('display') !='none'){
             $(".navbar-toggle").trigger( "click" );
         }
     });
-});
+  };
+
+  sonnyAdd();
   //
 
   $(window).resize(function(){
