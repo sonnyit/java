@@ -13,10 +13,14 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-  function slidebarNavToggle() {
-    alert("I am an alert box!");
-    $(this).parent().children('ul').toggle();
-  }
+
+  $(document).ready(function(){
+    $('.nav__sub-title').click(function() {
+      alert("I am an alert box!");
+      $(this).parent().children('ul').toggle();
+    });
+  });
+
 </script>
 
 <!-- For all browsers -->
