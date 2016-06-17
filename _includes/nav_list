@@ -20,6 +20,7 @@
         {% endif %}
 
         {% if nav.children != null %}
+        <div class="nav-collapse">
         <ul>
           {% for child in nav.children %}
             {% comment %}internal/external URL check{% endcomment %}
@@ -39,6 +40,7 @@
             <li><a href="{{ domain }}{{ child.url }}" class="{{ active }}">{{ child.title }}</a></li>
           {% endfor %}
         </ul>
+        </div>
         {% endif %}
       </li>
     {% endfor %}
