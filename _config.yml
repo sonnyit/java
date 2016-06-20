@@ -244,8 +244,24 @@ defaults:
       related: true
       sidebar:
         nav: "dpnav"
+  # _others
+  - scope:
+      path: ""
+      type: others
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "others_nav"
 
 collections:
   design-pattern:
+    output: true
+    permalink: /:collection/:path/
+  others:
     output: true
     permalink: /:collection/:path/

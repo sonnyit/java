@@ -87,3 +87,14 @@ dpnav:
     children:
       - title: "Singleton"
         url: /dpposts/dp-singleton/
+
+# others links
+others_nav:
+  - title: Others
+    children:
+      - title: "Agile"
+        url: /others/agile/
+      - title: "JSP"
+        url: /others/jsp/
+      - title: "SQL vs. NoSQL"
+        url: /others/sql-vs-nosql/
