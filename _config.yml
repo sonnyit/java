@@ -231,10 +231,10 @@ defaults:
       read_time: true
       share: true
       related: true
-  # _dpposts
+  # _design-pattern
   - scope:
       path: ""
-      type: dpposts
+      type: design-pattern
     values:
       layout: single
       author_profile: false
@@ -246,6 +246,6 @@ defaults:
         nav: "dpnav"
 
 collections:
-  dpposts:
+  design-pattern:
     output: true
     permalink: /:collection/:path/
