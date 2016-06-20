@@ -82,7 +82,7 @@ docs:
         url: /others/sql-vs-nosql/
 
 # design pattern links
-dp_nav:
+dpnav:
   - title: Creational
     children:
       - title: "Singleton"

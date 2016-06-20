@@ -231,10 +231,10 @@ defaults:
       read_time: true
       share: true
       related: true
-  # _dp_posts
+  # _dpposts
   - scope:
       path: ""
-      type: dp_posts
+      type: dpposts
     values:
       layout: single
       author_profile: false
@@ -243,9 +243,4 @@ defaults:
       share: true
       related: true
       sidebar:
-        nav: "dp_nav"
-
-collections:
-  dp_posts:
-    output: true
-    permalink: /:collection/:path/
+        nav: "dpnav"
