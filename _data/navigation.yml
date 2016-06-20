@@ -53,6 +53,10 @@ docs:
         url: /java-garbage-collection/j-garbage-collection/
       - title: "Types of Garbage Collectors"
         url: /java-garbage-collection/j-types-of-garbage-collectors/
+  - title: Java Collections
+    children:
+      - title: "Array"
+        url: /java-collections/array/
   - title: Interview Questions and Answers
     children:
       - title: "Concurrency"

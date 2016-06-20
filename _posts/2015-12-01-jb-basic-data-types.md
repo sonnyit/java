@@ -22,6 +22,10 @@ There are two data types available in Java:
 ## Primitive Data Types [&#10548;](#tables)
 There are eight primitive data types supported by Java.
 
+Primitives always have a value, they can never be null.
+
+If a primitive type is not set to a value when a variable is defined, it takes a default value. For boolean values, this is false. For the others, this is a representation of zero, such as 0 for ints or 0.0f for floats.
+
 **Numeric Types**
 
 * byte
@@ -49,7 +53,7 @@ There are eight primitive data types supported by Java.
   * this type is used when a wider range than int is needed
   * default value is 0L
 * char
-  * 16 bit unicode character
+  * 16 bit unicode character (unsigned)
   * minimum value is ‘\u0000’ (or 0)
   * maximum value is ‘\uffff’ (or 65,535)
   * char data type is used to store any character
@@ -58,10 +62,10 @@ There are eight primitive data types supported by Java.
 
 * float
   * 32 bit floating point
-  * default value is 0.0f
+  * default value is 0.0F
 * double
   * 64 bit floating point
-  * default value is 0.0d
+  * default value is 0.0D
 
 **Boolean type Primitive**
 
