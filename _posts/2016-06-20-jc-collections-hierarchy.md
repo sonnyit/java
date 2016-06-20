@@ -79,3 +79,5 @@ System.out.print("\t" + m1);
 
 * [programcreek-class-hierarchy-for-collections](http://www.programcreek.com/2009/02/the-interface-and-class-hierarchy-for-collections/)
 * [programcreek-collection-classes-summary](http://www.programcreek.com/2009/02/collection-interface-concrete-implementation-classes-summary-and-some-examples/)
+* [programcreek-java-collections](http://www.programcreek.com/java-collections/)
+* [programcreek-java-collections-questions](http://www.programcreek.com/2013/09/top-10-questions-for-java-collections/)

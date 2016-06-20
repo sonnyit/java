@@ -61,6 +61,8 @@ docs:
         url: /java-collections/jc-set/
       - title: "List"
         url: /java-collections/jc-list/
+      - title: "Map"
+        url: /java-collections/jc-map/
   - title: Interview Questions and Answers
     children:
       - title: "Concurrency"
