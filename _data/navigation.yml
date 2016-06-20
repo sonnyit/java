@@ -6,6 +6,9 @@ main:
   - title: "Design Pattern"
     url: https://sonnyit.github.io/java/design-pattern/dp-singleton/
 
+  - title: "Other Topic"
+    url: https://sonnyit.github.io/java/others/agile/
+
   - title: "Category"
     url: https://sonnyit.github.io/java/category-archive/
 
@@ -72,21 +75,15 @@ docs:
         url: /java-interview/ji-concurrency/
       - title: "Exceptions"
         url: /java-interview/ji-exceptions/
-  - title: Others
-    children:
-      - title: "Agile"
-        url: /others/agile/
-      - title: "JSP"
-        url: /others/jsp/
-      - title: "SQL vs. NoSQL"
-        url: /others/sql-vs-nosql/
 
 # design pattern links
 dpnav:
   - title: Creational
     children:
       - title: "Singleton"
-        url: /dpposts/dp-singleton/
+        url: /design-pattern/dp-singleton/
+      - title: "Factory"
+        url: /design-pattern/dp-factory/
 
 # others links
 others_nav:
