@@ -244,3 +244,8 @@ defaults:
       related: true
       sidebar:
         nav: "dpnav"
+
+collections:
+  dpposts:
+    output: true
+    permalink: /:collection/:path/

@@ -10,7 +10,7 @@ main:
     url: https://sonnyit.github.io/java/year-archive/
 
   - title: "Design Pattern"
-    url: https://sonnyit.github.io/java/java-design-pattern/dp-singleton/
+    url: https://sonnyit.github.io/java/dpposts/dp-singleton/
 
 # documentation links
 docs:
@@ -86,4 +86,4 @@ dpnav:
   - title: Creational
     children:
       - title: "Singleton"
-        url: /java-design-pattern/dp-singleton/
+        url: /dpposts/dp-singleton/
