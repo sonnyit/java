@@ -59,6 +59,8 @@ docs:
         url: /java-collections/jc-array/
       - title: "Set"
         url: /java-collections/jc-set/
+      - title: "List"
+        url: /java-collections/jc-list/
   - title: Interview Questions and Answers
     children:
       - title: "Concurrency"
