@@ -9,6 +9,9 @@ main:
   - title: "Year Archive"
     url: https://sonnyit.github.io/java/year-archive/
 
+  - title: "Design Pattern"
+    url: https://sonnyit.github.io/java/java-design-pattern/dp-singleton/
+
 # documentation links
 docs:
   - title: Getting Started
@@ -77,3 +80,10 @@ docs:
         url: /others/jsp/
       - title: "SQL vs. NoSQL"
         url: /others/sql-vs-nosql/
+
+# design pattern links
+dp_nav:
+  - title: Creational
+    children:
+      - title: "Singleton"
+        url: /java-design-pattern/dp-singleton/
