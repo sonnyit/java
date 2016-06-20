@@ -31,8 +31,6 @@ docs:
         url: /java-basic/jb-basic-operators/
       - title: "Static and Final Keyword"
         url: /java-basic/jb-static-and-final-keyword/
-      - title: "Array"
-        url: /java-basic/jb-array/
       - title: "Files and I/O"
         url: /java-basic/jb-files-and-io/
       - title: "Exceptions"
@@ -55,8 +53,10 @@ docs:
         url: /java-garbage-collection/j-types-of-garbage-collectors/
   - title: Java Collections
     children:
+      - title: "Collections Hierarchy"
+        url: /java-collections/jc-collections-hierarchy/
       - title: "Array"
-        url: /java-collections/array/
+        url: /java-collections/jc-array/
   - title: Interview Questions and Answers
     children:
       - title: "Concurrency"
