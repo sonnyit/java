@@ -6,7 +6,7 @@ main:
   - title: "Design Pattern"
     url: https://sonnyit.github.io/java/design-pattern/dp-singleton/
 
-  - title: "Other Topic"
+  - title: "Other Topics"
     url: https://sonnyit.github.io/java/others/agile/
 
   - title: "Category"
@@ -92,6 +92,10 @@ dpnav:
     children:
       - title: "Decorator"
         url: /design-pattern/dp-decorator/
+  - title: Behavioral
+    children:
+      - title: "Observer"
+        url: /design-pattern/dp-observer/
 
 # others links
 others_nav:

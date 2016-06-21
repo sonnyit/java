@@ -50,21 +50,21 @@ Hello World
 ## Basic Syntax [&#10548;](#tables)
 With Java programs, it is **very important** to keep in mind the following points:
 
-* **Case Sensitivity -** Java is case sensitive, so **Hello** and **hello** have different meaning in Java.
-* **Class Names -** For all class names, the **first letter** should be in **Upper Case**. Ex: *MyFirstJavaClass*.
-* **Method Names -** All method names should start with a **Lower Case** letter. Ex: *public void myMethodName()*.
-* **Program File Name -** Name of the program file should **exactly match** the (only) **public class name** in this file. Ex: assume 'MyFirstJavaProgram' is the class name. Then the file should be saved as 'MyFirstJavaProgram.java'.
-* **public static void main(String args[]) -** Java program processing starts from the main() methods which is a mandatory part of every Java program.
+1. **Case Sensitivity -** Java is case sensitive, so **Hello** and **hello** have different meaning in Java.
+2. **Class Names -** For all class names, the **first letter** should be in **Upper Case**. Ex: *MyFirstJavaClass*.
+3. **Method Names -** All method names should start with a **Lower Case** letter. Ex: *public void myMethodName()*.
+4. **Program File Name -** Name of the program file should **exactly match** the (only) **public class name** in this file. Ex: assume 'MyFirstJavaProgram' is the class name. Then the file should be saved as 'MyFirstJavaProgram.java'.
+5. **public static void main(String args[]) -** Java program processing starts from the main() methods which is a mandatory part of every Java program.
 
 ## Java Identifiers [&#10548;](#tables)
 In Java, we have several points that will need to remember about identifiers:
 
-* All identifiers should begin with a letter **(A-Z or a-z)**, currency character **$** or underscore **_**.
-* After the first character, identifiers can have any combination of character.
-* Identifier **cannot** have the same name with any **keyword**.
-* Most importantly identifiers are case sensitive.
-* Example of **legal** identifiers:  age, $salary, _value, __1_value.
-* Example of **illegal** identifiers: 123abc, -salary.
+1. All identifiers should begin with a letter **(A-Z or a-z)**, currency character **$** or underscore **_**.
+2. After the first character, identifiers can have any combination of character.
+3. Identifier **cannot** have the same name with any **keyword**.
+4. Most importantly identifiers are case sensitive.
+5. Example of **legal** identifiers:  age, $salary, _value, __1_value.
+6. Example of **illegal** identifiers: 123abc, -salary.
 
 ## Java Modifiers [&#10548;](#tables)
 Like other languages, it is possible to modify classes, methods, etc., by using modifiers. There are two categories of modifiers:
@@ -86,6 +86,7 @@ Types of variables in Java are:
 Enums were introduced in Java 5.0. Enums restrict a variable to have **one of only a few predefined values**. The values in this enumerated list are called enums.
 
 **Note:**
+
 * Enums can be declared as **their own** or **inside a class**.
 * Methods, variables, constructors can be defined inside enums as well.
 

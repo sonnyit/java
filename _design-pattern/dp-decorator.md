@@ -96,7 +96,7 @@ class ChickenFiesta extends Pizza {
 	public int getCost() { return 200; }
 }
 
-class SimplePizza extends Pizza{
+class SimplePizza extends Pizza {
 	public SimplePizza(){
 		description = "SimplePizza";
 	}

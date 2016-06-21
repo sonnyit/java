@@ -49,9 +49,9 @@ There are three kinds of variables in Java:
 - Visibility is similar to instance variables.
 - Default values are same as instance variables. (0, false, null). Values can be assigned during the declaration or within the constructor. Additionally values can be assigned in special static initializer blocks.
 - Static variables can be accessed be calling with the class name *ClassName.VariableName*.
-* When declaring class variables as:
-    * *public static final* --> variable names (constants) are all in upper case.
-    * If *static final* but not *public* --> variable naming syntax is the same as instance and local variables.
+- When declaring class variables as:
+	- *public static final* --> variable names (constants) are all in upper case.
+	- If *static final* but not *public* --> variable naming syntax is the same as instance and local variables.
 
 **Example:**
 
