@@ -84,6 +84,8 @@ dpnav:
         url: /design-pattern/dp-singleton/
       - title: "Factory"
         url: /design-pattern/dp-factory/
+      - title: "Abstract Factory"
+        url: /design-pattern/dp-abstract-factory/
 
 # others links
 others_nav:
