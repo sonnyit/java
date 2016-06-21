@@ -86,6 +86,8 @@ dpnav:
         url: /design-pattern/dp-factory/
       - title: "Abstract Factory"
         url: /design-pattern/dp-abstract-factory/
+      - title: "Builder"
+        url: /design-pattern/dp-builder/
 
 # others links
 others_nav:
