@@ -63,7 +63,6 @@ class Cake {
     private final int cherry;
 
     public static class Builder {
-
         private double sugar;           //cup
         private double butter;          //cup
         private int eggs;

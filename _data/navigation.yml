@@ -88,6 +88,10 @@ dpnav:
         url: /design-pattern/dp-abstract-factory/
       - title: "Builder"
         url: /design-pattern/dp-builder/
+  - title: Structural
+    children:
+      - title: "Decorator"
+        url: /design-pattern/dp-decorator/
 
 # others links
 others_nav:
