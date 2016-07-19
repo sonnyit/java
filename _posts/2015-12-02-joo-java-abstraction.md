@@ -28,7 +28,7 @@ Abstraction is the concept of exposing only the required essential characteristi
 
 ## What is Abstraction? [&#10548;](#tables)
 
-Abstraction in Java or Object oriented programming is a way to segregate *implementation* from *an interface* and one of the five fundamentals along with Encapsulation, Inheritance, Polymorphism, Class, and Object.
+Abstraction in Java or Object oriented programming is a way to segregate *implementation* from *an interface* (**hiding internal details and showing functionality**) and one of the five fundamentals along with Encapsulation, Inheritance, Polymorphism, Class, and Object. For example: phone call, we don't know the internal processing.
 
 Abstraction in Java is achieved by using **interface** and **abstract class** in Java.
 
