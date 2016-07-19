@@ -1,5 +1,5 @@
 ---
-title: Java Abstract
+title: Java Abstraction
 updated: 2015-12-02
 categories:
   - java-object-oriented
