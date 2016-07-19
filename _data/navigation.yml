@@ -43,8 +43,8 @@ docs:
         url: /java-basic/jb-exceptions/
   - title: Java Object Oriented
     children:
-      - title: "Java Abstract"
-        url: /java-object-oriented/joo-java-abstract/
+      - title: "Java Abstraction"
+        url: /java-object-oriented/joo-java-abstraction/
       - title: "Java Encapsulation"
         url: /java-object-oriented/joo-java-encapsulation/
       - title: "Java Inheritance"
