@@ -43,12 +43,14 @@ docs:
         url: /java-basic/jb-exceptions/
   - title: Java Object Oriented
     children:
+      - title: "Java Inheritance"
+        url: /java-object-oriented/joo-java-inheritance/
+      - title: "Java Polymorphism"
+        url: /java-object-oriented/joo-java-polymorphism/
       - title: "Java Abstraction"
         url: /java-object-oriented/joo-java-abstraction/
       - title: "Java Encapsulation"
         url: /java-object-oriented/joo-java-encapsulation/
-      - title: "Java Inheritance"
-        url: /java-object-oriented/joo-java-inheritance/
   - title: Java Garbage Collection
     children:
       - title: "Java Reference Types"
