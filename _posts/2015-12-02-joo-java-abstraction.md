@@ -75,7 +75,9 @@ You can go for java interface if you only know the name of methods your class sh
 
 If you know some of the behavior while designing class and that would remain common across all subclasses add that into an abstract class.
 
-An interface like Runnable interface is a good example of abstraction in Java which is used to abstract task executed by multiple threads. Callable is another good abstract of a task which can return value. 
+An interface like Runnable interface is a good example of abstraction in Java which is used to abstract task executed by multiple threads. Callable is another good abstract of a task which can return value.
+
+A variable declared inside interface must be *public static final variables(constants)*, it cannot have any other modifier. And Methods inside Interface **must not** be static, final, native or strictfp.
 
 ## More about Java Abstract [&#10548;](#tables)
 

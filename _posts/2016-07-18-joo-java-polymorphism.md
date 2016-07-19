@@ -52,6 +52,8 @@ Java has excellent support of polymorphism in terms of Inheritance, method overl
 
 In case of overloading method signature changes while in case of overriding method signature remains same and binding and invocation of method is decided on runtime based on actual object. This facility allows Java programmer to write very flexibly and maintainable code using interfaces without worrying about concrete implementation.
 
+It is possible to override a method by changing its return type. (if they return a subtype)
+
 ## References
 * [tutorialspoint-polymorphism](http://www.tutorialspoint.com/java/java_polymorphism.htm)
 * [javarevisited-polymorphism](http://javarevisited.blogspot.com/2011/08/what-is-polymorphism-in-java-example.html)

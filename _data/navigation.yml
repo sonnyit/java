@@ -71,6 +71,10 @@ docs:
         url: /java-collections/jc-list/
       - title: "Map"
         url: /java-collections/jc-map/
+  - title: Java Advance
+    children:
+      - title: "Java Multithreading"
+        url: /java-advance/ja-java-multithreading/
   - title: Interview Questions and Answers
     children:
       - title: "Concurrency"
