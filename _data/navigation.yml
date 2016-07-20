@@ -41,6 +41,8 @@ docs:
         url: /java-basic/jb-files-and-io/
       - title: "Exceptions"
         url: /java-basic/jb-exceptions/
+      - title: "Inner Classes"
+        url: /java-basic/jb-inner-classes/
   - title: Java Object Oriented
     children:
       - title: "Java Inheritance"
