@@ -22,6 +22,8 @@ tags:
 * [When an object becomes eligible for garbage collection?](#when-an-object-becomes-eligible-for-garbage-collection-10548tables)
 * [References](#references-10548tables)
 
+Garbage collection is responsible for removing objects from memory when they can never be used again. An object becomes eligible for garbage collection when there are no more references to it or its references have all gone out of scope. The **finalize()** method will run once for each object if/when it is  rst garbage collected.
+
 ## Introduction [&#10548;](#tables)
 
 In Java, allocation and de-allocation of memory space for objects are done by the garbage collection process in an automated way by the JVM.

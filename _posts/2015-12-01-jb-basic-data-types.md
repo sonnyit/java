@@ -26,6 +26,8 @@ Primitives always have a value, they can never be null.
 
 If a primitive type is not set to a value when a variable is defined, it takes a default value. For boolean values, this is false. For the others, this is a representation of zero, such as 0 for ints or 0.0f for floats.
 
+Primitive types are the basic building blocks of Java types. They are assembled into reference types. Reference types can have methods and be assigned to null. In addition to “normal” numbers, numeric literals are allowed to begin with 0 (octal), 0x (hex), 0X (hex), 0b (binary), or 0B (binary). Numeric literals are also allowed to contain underscores as long as they are directly between two other numbers.
+
 **Numeric Types**
 
 * byte

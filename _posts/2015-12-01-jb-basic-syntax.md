@@ -55,6 +55,9 @@ With Java programs, it is **very important** to keep in mind the following point
 3. **Method Names -** All method names should start with a **Lower Case** letter. Ex: *public void myMethodName()*.
 4. **Program File Name -** Name of the program file should **exactly match** the (only) **public class name** in this file. Ex: assume 'MyFirstJavaProgram' is the class name. Then the file should be saved as 'MyFirstJavaProgram.java'.
 5. **public static void main(String args[]) -** Java program processing starts from the main() methods which is a mandatory part of every Java program.
+6. a single line comment **``(//)``**, a multiline comment **``(/* */)``**, and a Javadoc comment **``(/** */)``**.
+7. Java code is organized into folders called packages. To reference classes in other packages, you use an **import** statement. A wildcard (**``*``**) ending an import statement means you want to import all classes in that package. It does not include packages that are inside that one. **java.lang** is a special package that does not need to be imported. **Note:** importing by classname takes precedence over wildcards.
+8. Constructors create Java objects. A constructor is a method matching the class name and omitting the return type. When an object is instantiated, fields and blocks of code are initialized first. Then the constructor is run.
 
 ## Java Identifiers [&#10548;](#tables)
 In Java, we have several points that will need to remember about identifiers:
@@ -63,7 +66,7 @@ In Java, we have several points that will need to remember about identifiers:
 2. After the first character, identifiers can have any combination of character.
 3. Identifier **cannot** have the same name with any **keyword**.
 4. Most importantly identifiers are case sensitive.
-5. Example of **legal** identifiers:  age, $salary, _value, __1_value.
+5. Example of **legal** identifiers: age, $salary, _value, __1_value.
 6. Example of **illegal** identifiers: 123abc, -salary.
 
 ## Java Modifiers [&#10548;](#tables)
@@ -78,6 +81,8 @@ Types of variables in Java are:
 * Local Variables
 * Class Variables (Static Variables)
 * Instance Variables (Non-static variables)
+
+Declaring a variable involves stating the data type and giving the variable a name. Variables that represent fields in a class are automatically initialized to their corresponding "zero" or null value during object instantiation. Local variables must be specically initialized. Identifiers may contain letters, numbers, $, or _. Identifiers may not begin with numbers.
 
 ## Java Arrays [&#10548;](#tables)
 **Arrays** are **objects** that **store** multiple variables of the **same type**. However, an array itself is an object **on the heap**.

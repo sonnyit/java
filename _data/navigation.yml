@@ -29,12 +29,12 @@ docs:
         url: /java-basic/jb-object-and-class/
       - title: "Basic Datatypes"
         url: /java-basic/jb-basic-data-types/
+      - title: "Basic Operators"
+        url: /java-basic/jb-basic-operators/
       - title: "Variable Types"
         url: /java-basic/jb-variable-types/
       - title: "Modifier Types"
         url: /java-basic/jb-modifier-types/
-      - title: "Basic Operators"
-        url: /java-basic/jb-basic-operators/
       - title: "Static and Final Keyword"
         url: /java-basic/jb-static-and-final-keyword/
       - title: "Files and I/O"
@@ -43,6 +43,8 @@ docs:
         url: /java-basic/jb-exceptions/
       - title: "Inner Classes"
         url: /java-basic/jb-inner-classes/
+      - title: "Assert"
+        url: /java-basic/jb-assert/
   - title: Java Object Oriented
     children:
       - title: "Java Inheritance"
