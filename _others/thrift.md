@@ -24,11 +24,11 @@ tags:
 
 List of thrift servers available for Java:
 
-  * TSimpleServer
-  * TNonblockingServer
-  * THsHaServer (Half-Sync/Half-Async server)
-  * TThreadedSelectorServer
-  * TThreadPoolServer
+  * [TSimpleServer](https://people.apache.org/~thejas/thrift-0.9/javadoc/org/apache/thrift/server/TSimpleServer.html)
+  * [TNonblockingServer](https://people.apache.org/~thejas/thrift-0.9/javadoc/org/apache/thrift/server/TNonblockingServer.html)
+  * [THsHaServer (Half-Sync/Half-Async server)](https://people.apache.org/~thejas/thrift-0.9/javadoc/org/apache/thrift/server/THsHaServer.html)
+  * [TThreadedSelectorServer](https://people.apache.org/~thejas/thrift-0.9/javadoc/org/apache/thrift/server/TThreadedSelectorServer.html)
+  * [TThreadPoolServer](https://people.apache.org/~thejas/thrift-0.9/javadoc/org/apache/thrift/server/TThreadPoolServer.html)
 
 ### TSimpleServer [&#10548;](#tables)
 
@@ -66,8 +66,8 @@ List of thrift servers available for Java:
 
 In my opinion:
 
-  * If workers have to handle heavy task, and you do not have too too much concurrent client (mean network io is not bottleneck) -> so THsHaServer is a good choice.
-  * In case we have a lots of concurrent client, and if the task for each worker is heavy -> TThreadPoolServer, else, choose TThreadedSelectorServer.
+  * If workers have to handle heavy task, and you do not have too too much concurrent client (mean network io is not bottleneck) -> so *THsHaServer* is a good choice.
+  * In case we have a lots of concurrent client, and if the task for each worker is heavy -> *TThreadPoolServer*, else, choose *TThreadedSelectorServer*.
 
 ## Compatibility in Thrift [&#10548;](#tables)
 
@@ -94,6 +94,12 @@ struct Person {
     3: list<string> interests
 }
 ```
+
+Some of the protocols available for majority of the Thrift-supported languages are:
+
+* binary: Fairly simple binary encoding -- the length and type of a field are encoded as bytes followed by the actual value of the field.
+* compact: Described in THRIFT-110
+* json
 
 The BinaryProtocol encoding is very straightforward, but also fairly wasteful (it takes 59 bytes to encode our example record):
 
