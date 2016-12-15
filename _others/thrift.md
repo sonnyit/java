@@ -144,4 +144,5 @@ Adding an exception to any method should really be considered to break backward 
 * [Thrift-Java-Servers-Compared](https://github.com/m1ch1/mapkeeper/wiki/Thrift-Java-Servers-Compared)
 * [thrift-versioning-doc](https://github.com/bkayser/thrift-versioning-doc)
 * [schema-evolution-in-avro-protocol-buffers-thrift](https://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html)
+* [comparison-of-apache-thrift-java-servers](http://mmalithh.blogspot.com/2012/10/comparison-of-apache-thrift-java-servers.html)
 * [thrift-source-github](https://github.com/apache/thrift/tree/master/lib/java)
