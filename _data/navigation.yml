@@ -117,3 +117,5 @@ others_nav:
         url: /others/jsp/
       - title: "SQL vs. NoSQL"
         url: /others/sql-vs-nosql/
+      - title: "Thrift"
+        url: /others/thrift/
