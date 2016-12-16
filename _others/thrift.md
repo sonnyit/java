@@ -98,7 +98,7 @@ struct Person {
 Some of the protocols available for majority of the Thrift-supported languages are:
 
 * binary: Fairly simple binary encoding -- the length and type of a field are encoded as bytes followed by the actual value of the field.
-* compact: Described in THRIFT-110
+* compact: Described in THRIFT-110.
 * json
 
 The BinaryProtocol encoding is very straightforward, but also fairly wasteful (it takes 59 bytes to encode our example record):
