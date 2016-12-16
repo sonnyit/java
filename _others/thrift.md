@@ -1,6 +1,6 @@
 ---
 title: Thrift
-updated: 2016-12-15
+updated: 2016-12-16
 categories:
   - others
 tags:
